@@ -1,7 +1,7 @@
 # 🧪 Doc Loader Test Suite Report
 
-**Generated:** 2025-07-05 00:15:18  
-**Test Duration:** 0.15 seconds
+**Generated:** 2025-07-05 00:27:47  
+**Test Duration:** 0.05 seconds
 
 ## 📊 Summary
 
@@ -12,12 +12,12 @@
 
 ## 🚀 Performance Metrics
 
-- **Average Processing Time:** 0.02s
-- **Processing Range:** 0.01s - 0.05s
+- **Average Processing Time:** 0.01s
+- **Processing Range:** 0.01s - 0.01s
 - **Total Chunks Generated:** 32
 - **Average Chunks per File:** 4.6
 - **Total Words Processed:** 3,342
-- **Processing Efficiency:** 21588 words/second
+- **Processing Efficiency:** 62695 words/second
 - **Average Chunk Size:** 104 words
 
 ## 📋 File Processing Results
@@ -32,7 +32,7 @@
 
 ### ✅ business_report_q4_2024.txt
 
-- **Processing Time:** 0.02s
+- **Processing Time:** 0.01s
 - **File Size:** 2,441 bytes
 - **Chunks Generated:** 3
 - **Words Processed:** 375
@@ -40,7 +40,7 @@
 
 ### ✅ company_performance_2024.csv
 
-- **Processing Time:** 0.02s
+- **Processing Time:** 0.01s
 - **File Size:** 903 bytes
 - **Chunks Generated:** 2
 - **Words Processed:** 133
@@ -48,7 +48,7 @@
 
 ### ✅ research_papers_collection.json
 
-- **Processing Time:** 0.02s
+- **Processing Time:** 0.01s
 - **File Size:** 4,576 bytes
 - **Chunks Generated:** 5
 - **Words Processed:** 425
@@ -56,7 +56,7 @@
 
 ### ✅ sample_pdf.pdf
 
-- **Processing Time:** 0.05s
+- **Processing Time:** 0.01s
 - **File Size:** 13,264 bytes
 - **Chunks Generated:** 1
 - **Words Processed:** 13
@@ -64,7 +64,7 @@
 
 ### ✅ scientific_articles.json
 
-- **Processing Time:** 0.03s
+- **Processing Time:** 0.01s
 - **File Size:** 16,696 bytes
 - **Chunks Generated:** 17
 - **Words Processed:** 1,919
