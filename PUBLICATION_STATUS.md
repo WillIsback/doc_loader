@@ -40,13 +40,13 @@
 - **Package Name**: `extracteur-docs-rs`
 - **Version**: 0.2.0
 - **Python Bindings**: Full PyO3 integration
-- **Status**: 🔄 Publishing...
+- **Status**: ✅ **Published Successfully**
 
 ### crates.io (Rust Package Registry)
 - **Crate Name**: `doc_loader`
 - **Version**: 0.2.0
 - **Rust Library**: Native performance
-- **Status**: 🔄 Publishing...
+- **Status**: ✅ **Published Successfully**
 
 ## 🎯 Key Improvements
 
@@ -95,8 +95,29 @@ Once publication completes:
 - ✅ **Clean Project Structure**: Professional organization achieved
 - ✅ **Quality Testing**: Comprehensive validation framework
 - ✅ **Documentation**: Clear and complete project docs
-- 🔄 **Package Publication**: PyPI + crates.io deployment in progress
-- ⏳ **Verification**: Post-publication validation pending
+- ✅ **Package Publication**: Successfully deployed on both PyPI and crates.io
+- ✅ **Verification**: Both packages confirmed available and installable
+
+## 📋 Publication Verification
+
+### Verified Package Availability
+
+**PyPI (Python):**
+```bash
+pip install extracteur-docs-rs==0.2.0
+# ✅ Package successfully available
+```
+
+**crates.io (Rust):**
+```bash
+cargo search doc_loader
+# ✅ doc_loader = "0.2.0" confirmed
+```
+
+### Publication Timeline
+- **17:26 UTC**: PyPI publication completed successfully
+- **17:32 UTC**: crates.io publication completed successfully
+- **Total Duration**: ~6 minutes for both platforms
 
 ---
 
