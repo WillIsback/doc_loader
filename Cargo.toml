@@ -1,6 +1,6 @@
 [package]
 name = "doc_loader"
-version = "0.2.0"
+version = "0.3.0"
 edition = "2021"
 authors = ["WillIsback <will@example.com>"]
 description = "A comprehensive toolkit for extracting and processing documentation from multiple file formats (PDF, TXT, JSON, CSV, DOCX) with Python bindings"

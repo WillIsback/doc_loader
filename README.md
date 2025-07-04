@@ -6,12 +6,13 @@
 [![GitHub](https://img.shields.io/badge/GitHub-WillIsback%2Fdoc__loader-blue.svg)](https://github.com/WillIsback/doc_loader)
 [![Crates.io](https://img.shields.io/crates/v/doc_loader.svg)](https://crates.io/crates/doc_loader)
 [![PyPI](https://img.shields.io/pypi/v/doc-loader.svg)](https://pypi.org/project/doc-loader/)
+[![Documentation](https://img.shields.io/badge/docs-GitHub%20Pages-blue.svg)](https://willisback.github.io/doc_loader/)
 
 A comprehensive Rust toolkit for extracting and processing documentation from multiple file formats into a universal JSON structure, optimized for vector stores and RAG (Retrieval-Augmented Generation) systems.
 
 ## 🎯 Project Status
 
-**Current Version**: 0.2.0  
+**Current Version**: 0.3.0  
 **Status**: ✅ **Production Ready**  
 **Python Bindings**: ✅ **Fully Functional**  
 **Documentation**: ✅ **Complete**
