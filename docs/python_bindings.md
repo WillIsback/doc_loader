@@ -168,7 +168,7 @@ Minor notes:
 ## 📁 Final File Structure
 
 ```
-/home/william/projet/doc_loader/
+doc_loader/
 ├── Cargo.toml                     # ✅ Python features configured
 ├── pyproject.toml                 # ✅ Maturin build config
 ├── python_demo.py                 # ✅ Working demo script

@@ -42,4 +42,32 @@ publish_venv/
 # Large test files (if needed)
 testing/corpus/*.pdf
 testing/corpus/large_*
-testing/corpus/*
+
+# Security - DO NOT COMMIT
+.env
+.env.*
+*.key
+*.pem
+*.crt
+*token*
+*secret*
+*credential*
+config/local.*
+
+# Development environment specific
+temp_env/
+*_env/
+local_config.*
+dev_scripts/
+*.local
+
+# Smart-locker encrypted data (already encrypted, but exclude for safety)
+.smart-locker/
+*.locker
+
+# Personal development files
+personal/
+private/
+my_*
+*_personal.*
+scripts/*

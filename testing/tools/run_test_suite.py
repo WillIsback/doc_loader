@@ -4,7 +4,6 @@ Comprehensive testing suite for doc_loader project
 Processes all files in the corpus and generates quality reports
 """
 
-import os
 import json
 import subprocess
 import time
@@ -289,14 +288,17 @@ Based on test results:
         with open(report_file, 'w', encoding='utf-8') as f:
             f.write(report)
         
-        print(f"\n📊 Results saved:")
+        print("\n📊 Results saved:")
         print(f"   📄 Detailed JSON: {results_file}")
         print(f"   📋 Summary Report: {report_file}")
 
 def main():
     """Main entry point"""
-    project_root = "/home/william/projet/doc_loader"
-    tester = DocLoaderTester(project_root)
+    # Get project root dynamically
+    script_dir = Path(__file__).parent.absolute()
+    project_root = script_dir.parent.parent
+    
+    tester = DocLoaderTester(str(project_root))
     
     print("🧪 Doc Loader Comprehensive Test Suite")
     print("=" * 50)

@@ -1,0 +1,6 @@
+isbn,title,author,publisher,publication_year,pages,genre,language,price,rating,reviews_count,format,weight_kg,dimensions,availability
+9780134685991,Effective Java,Joshua Bloch,Addison-Wesley Professional,2018,416,Programming,English,54.99,4.8,1247,Hardcover,0.73,23.5 x 18.7 x 2.8 cm,In Stock
+9780134686097,Clean Code: A Handbook of Agile Software Craftsmanship,Robert C. Martin,Prentice Hall,2008,464,Programming,English,42.99,4.7,2156,Paperback,0.68,23.1 x 17.8 x 2.5 cm,In Stock
+9781491954243,Learning Python,Mark Lutz,O'Reilly Media,2013,1648,Programming,English,67.99,4.5,892,Paperback,2.1,23.5 x 17.8 x 8.4 cm,Limited Stock
+9781617294136,Deep Learning,"Ian Goodfellow, Yoshua Bengio, Aaron Courville",MIT Press,2016,800,Machine Learning,English,89.99,4.6,567,Hardcover,1.8,25.4 x 20.3 x 5.1 cm,In Stock
+9780596517748,JavaScript: The Good Parts,Douglas Crockford,O'Reilly Media,2008,176,Programming,English,29.99,4.4,1834,Paperback,0.31,17.8 x 12.7 x 1.3 cm,In Stock

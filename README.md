@@ -1,15 +1,17 @@
 # 📄 Doc Loader
 
 [![Rust](https://img.shields.io/badge/rust-1.70%2B-orange.svg)](https://www.rust-lang.org/)
-[![Python](https://img.shields.io/badge/python-3.13%2B-blue.svg)](https://www.python.org/)
+[![Python](https://img.shields.io/badge/python-3.9%2B-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)]()
+[![GitHub](https://img.shields.io/badge/GitHub-WillIsback%2Fdoc__loader-blue.svg)](https://github.com/WillIsback/doc_loader)
+[![Crates.io](https://img.shields.io/crates/v/doc_loader.svg)](https://crates.io/crates/doc_loader)
+[![PyPI](https://img.shields.io/pypi/v/extracteur-docs-rs.svg)](https://pypi.org/project/extracteur-docs-rs/)
 
 A comprehensive Rust toolkit for extracting and processing documentation from multiple file formats into a universal JSON structure, optimized for vector stores and RAG (Retrieval-Augmented Generation) systems.
 
 ## 🎯 Project Status
 
-**Current Version**: 0.1.0  
+**Current Version**: 0.2.0  
 **Status**: ✅ **Production Ready**  
 **Python Bindings**: ✅ **Fully Functional**  
 **Documentation**: ✅ **Complete**
@@ -35,7 +37,7 @@ A comprehensive Rust toolkit for extracting and processing documentation from mu
 
 ### Building from Source
 ```bash
-git clone <repository-url>
+git clone https://github.com/WillIsback/doc_loader.git
 cd doc_loader
 cargo build --release
 ```

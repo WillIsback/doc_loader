@@ -3,8 +3,7 @@
 
 import json
 import csv
-import os
-from datetime import datetime
+from pathlib import Path
 
 def create_technical_document():
     """Create a comprehensive technical document"""
@@ -447,7 +446,9 @@ def create_book_catalog():
 
 # Create all test files
 def generate_test_files():
-    base_path = "/home/william/projet/doc_loader/testing/corpus"
+    # Get project root dynamically
+    script_dir = Path(__file__).parent.absolute()
+    base_path = script_dir.parent / "corpus"
     
     # Technical document
     with open(f"{base_path}/technical_documentation.txt", "w", encoding="utf-8") as f:

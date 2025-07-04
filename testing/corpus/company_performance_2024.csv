@@ -1,0 +1,6 @@
+company_id,company_name,industry,founded,employees,headquarters,annual_revenue_2024,annual_revenue_2023,revenue_growth,profit_margin,market_cap,stock_price,debt_to_equity,customer_count,customer_retention,nps_score
+TECH001,InnovateTech Solutions,Software Development,2018,245,"San Francisco, CA",45000000,38000000,18.4,15.2,680000000,127.45,0.23,1847,94.2,72
+BIO002,BioMedical Innovations,Biotechnology,2015,156,"Boston, MA",89000000,76000000,17.1,22.8,1200000000,78.92,0.18,234,97.8,85
+FIN003,FinTech Dynamics,Financial Technology,2019,89,"New York, NY",23000000,18000000,27.8,12.5,340000000,45.67,0.31,5632,89.4,68
+ENE004,GreenEnergy Corp,Renewable Energy,2016,412,"Austin, TX",156000000,134000000,16.4,18.7,2100000000,156.23,0.42,89234,91.7,74
+MAN005,Advanced Manufacturing Systems,Industrial Manufacturing,2012,1247,"Detroit, MI",340000000,298000000,14.1,9.8,1800000000,89.34,0.56,456,96.1,79

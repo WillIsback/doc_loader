@@ -1,0 +1,77 @@
+# Technical Documentation: RESTful API Design Guidelines
+
+## Introduction
+
+This document outlines best practices for designing and implementing RESTful APIs in modern web applications. It covers HTTP methods, status codes, authentication, and data serialization.
+
+## HTTP Methods
+
+### GET Requests
+- Used for retrieving data
+- Should be idempotent
+- No request body
+- Cacheable by default
+
+### POST Requests
+- Used for creating new resources
+- Not idempotent
+- Includes request body
+- Should return 201 Created on success
+
+### PUT Requests
+- Used for updating entire resources
+- Idempotent operation
+- Replaces entire resource
+- Should return 200 OK or 204 No Content
+
+### DELETE Requests
+- Used for removing resources
+- Idempotent operation
+- Should return 204 No Content
+- May return 404 if resource doesn't exist
+
+## Status Codes
+
+### 2xx Success
+- 200 OK: Request successful
+- 201 Created: Resource created
+- 204 No Content: Success with no response body
+
+### 4xx Client Error
+- 400 Bad Request: Invalid request syntax
+- 401 Unauthorized: Authentication required
+- 403 Forbidden: Access denied
+- 404 Not Found: Resource doesn't exist
+
+### 5xx Server Error
+- 500 Internal Server Error: Server-side error
+- 502 Bad Gateway: Invalid response from upstream
+- 503 Service Unavailable: Server temporarily unavailable
+
+## Authentication
+
+### Bearer Token Authentication
+```
+Authorization: Bearer <token>
+```
+
+### API Key Authentication
+```
+X-API-Key: <api-key>
+```
+
+## Data Serialization
+
+### JSON Format
+- Use camelCase for property names
+- Include appropriate Content-Type headers
+- Validate JSON schema
+
+### XML Format
+- Use clear element names
+- Include proper namespaces
+- Validate against XSD schema
+
+## Conclusion
+
+Following these guidelines ensures consistent, maintainable, and scalable API design that improves developer experience and system reliability.
