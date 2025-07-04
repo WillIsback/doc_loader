@@ -1,0 +1,41 @@
+{
+  "name": "Test Document",
+  "version": "1.0",
+  "metadata": {
+    "author": "William",
+    "created": "2025-07-04",
+    "description": "This is a test JSON document for the doc_loader toolkit"
+  },
+  "sections": [
+    {
+      "id": 1,
+      "title": "Introduction",
+      "content": "This section introduces the document structure and purpose.",
+      "subsections": [
+        {
+          "title": "Purpose",
+          "text": "To demonstrate JSON processing capabilities"
+        },
+        {
+          "title": "Structure",
+          "text": "Hierarchical JSON with nested objects and arrays"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Technical Details",
+      "content": "This section contains technical specifications.",
+      "data": {
+        "max_depth": 5,
+        "encoding": "UTF-8",
+        "format": "JSON"
+      }
+    }
+  ],
+  "tags": ["test", "json", "document", "processing"],
+  "statistics": {
+    "word_count": 50,
+    "estimated_size": "2KB"
+  }
+}

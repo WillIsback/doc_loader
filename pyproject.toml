@@ -1,0 +1,52 @@
+[build-system]
+requires = ["maturin>=1.0,<2.0"]
+build-backend = "maturin"
+
+[project]
+name = "extracteur-docs-rs"
+description = "Un toolkit complet pour extraire et traiter la documentation depuis plusieurs formats de fichiers (PDF, TXT, JSON, CSV, DOCX) avec des bindings Python"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [
+    {name = "William", email = "william@example.com"}
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Rust",
+    "Topic :: Text Processing",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+]
+requires-python = ">=3.9"
+dynamic = ["version"]
+
+[project.urls]
+Repository = "https://github.com/williamrisal/doc_loader"
+Documentation = "https://github.com/williamrisal/doc_loader/tree/master/docs"
+Homepage = "https://github.com/williamrisal/doc_loader"
+
+[tool.maturin]
+features = ["pyo3/extension-module"]
+module-name = "doc_loader"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "pytest-benchmark>=4.0",
+    "black>=22.0",
+    "mypy>=1.0",
+]
+examples = [
+    "pandas>=1.5.0",
+    "numpy>=1.21.0",
+    "sentence-transformers>=2.0.0",
+    "flask>=2.0.0",
+]

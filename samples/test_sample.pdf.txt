@@ -1,0 +1,14 @@
+Test PDF Document
+This is a sample PDF file for testing the doc_loader toolkit.
+
+Section 1: Introduction
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+Section 2: Technical Details
+This document contains multiple sections to test chunking.
+The PDF processor should extract this text properly.
+
+Section 3: Conclusion
+This concludes our test document.
+Thank you for testing the doc_loader toolkit!

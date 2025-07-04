@@ -1,0 +1,33 @@
+# Rust
+/target
+Cargo.lock
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Output files
+output_*.json
+*.log
+
+# Temporary files
+*.tmp
+*.temp
