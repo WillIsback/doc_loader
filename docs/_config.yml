@@ -29,7 +29,7 @@ navigation:
 
 social:
   github: WillIsback/doc_loader
-  pypi: doc-loader
+  pypi: extracteur-docs-rs
 
 exclude:
   - README.md
