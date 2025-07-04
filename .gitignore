@@ -31,3 +31,15 @@ output_*.json
 # Temporary files
 *.tmp
 *.temp
+
+# Testing artifacts
+testing/results/*.json
+testing/reports/test_results_detailed.json
+*_output.json
+verify_venv/
+publish_venv/
+
+# Large test files (if needed)
+testing/corpus/*.pdf
+testing/corpus/large_*
+testing/corpus/*
