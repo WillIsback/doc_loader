@@ -319,7 +319,7 @@ venv/bin/maturin develop --features python --release
 
 ### Usage
 ```python
-import doc_loader
+import extracteur-docs-rs as doc_loader
 
 # Quick start - process any supported file format
 result = doc_loader.process_file("document.pdf", chunk_size=500)
