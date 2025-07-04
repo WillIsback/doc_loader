@@ -5,6 +5,81 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.2.0] - 2025-07-05
+
+### 🏗️ Major Project Restructuring
+
+#### Added
+- **Professional Project Structure**: Complete reorganization for production readiness
+- **Centralized Testing Framework**: New `testing/` directory with organized subdirectories
+- **High-Quality Test Corpus**: Generated reliable test documents replacing corrupted files
+- **Automated Test Suite**: Comprehensive `run_test_suite.py` for complete project validation
+- **Quality Assessment Tools**: Enhanced evaluation scripts with detailed reporting
+- **Publication Automation**: Professional scripts for PyPI and crates.io deployment
+- **Comprehensive Documentation**: PROJECT_STRUCTURE.md and detailed README files
+
+#### Changed
+- **Directory Structure**: Moved from scattered test files to organized `testing/` framework
+- **Test Data Quality**: Replaced corrupted/empty files with generated high-quality samples
+- **Documentation Organization**: Centralized docs with clear hierarchy and standards
+- **Version Bump**: Updated to 0.2.0 to reflect major structural improvements
+
+#### Removed
+- **Corrupted Test Files**: Eliminated empty PDFs and broken downloads
+- **Scattered Test Results**: Consolidated all outputs in `testing/results/`
+- **Root-Level Test Files**: Moved all testing materials to dedicated directory
+
+#### Fixed
+- **File Organization**: Clean separation of concerns (testing, scripts, documentation)
+- **Test Reliability**: All test files now validated and working
+- **Repository Cleanliness**: Enhanced .gitignore for better artifact management
+
+### 🧪 Enhanced Testing Infrastructure
+
+#### New Testing Structure
+```
+testing/
+├── corpus/          # High-quality test documents
+├── results/         # Generated JSON outputs
+├── tools/           # Automation scripts
+├── reports/         # Quality assessments
+└── CONFIG.md        # Testing standards
+```
+
+#### Test Corpus Improvements
+- **Technical Documentation**: RESTful API design guidelines
+- **Business Reports**: Q4 2024 performance analysis
+- **Research Papers**: Academic article collections (JSON)
+- **Company Data**: Performance metrics (CSV)
+- **Book Catalogs**: Library database samples (CSV)
+- **Scientific Articles**: Research publication metadata (JSON)
+
+#### Quality Assurance
+- **Automated Testing**: Complete project validation in minutes
+- **Performance Metrics**: Processing speed and efficiency tracking
+- **Quality Scoring**: Vector store readiness assessment
+- **Error Handling**: Comprehensive failure detection and reporting
+
+### 🚀 Production Readiness
+
+#### Publication Pipeline
+- **Smart Token Management**: Secure credential handling via smart-locker
+- **Dual Platform Support**: Simultaneous PyPI and crates.io publication
+- **Verification System**: Post-publication package validation
+- **Documentation Standards**: Professional-grade project documentation
+
+#### Developer Experience
+- **Clear Structure**: Intuitive project organization for contributors
+- **Comprehensive Testing**: Easy validation of all changes
+- **Automated Workflows**: Reduced manual deployment overhead
+- **Quality Gates**: Automated quality checks before publication
+
+### 📊 Performance Improvements
+- **Test Suite Efficiency**: Complete project validation in under 5 minutes
+- **Clean Builds**: Optimized compilation with proper artifact management
+- **Resource Management**: Better memory usage in testing framework
+- **Documentation Generation**: Automated report creation with detailed metrics
+
 ## [0.1.0] - 2025-07-04
 
 ### Added
