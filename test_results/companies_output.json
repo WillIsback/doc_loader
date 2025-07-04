@@ -1,0 +1,589 @@
+{
+  "document_metadata": {
+    "filename": "companies_performance.csv",
+    "filepath": "test_corpus/companies_performance.csv",
+    "document_type": "CSV",
+    "file_size": 4296,
+    "created_at": "2025-07-04T21:48:48.518136830Z",
+    "modified_at": "2025-07-04T21:48:48.758148415Z",
+    "title": null,
+    "author": null,
+    "format_metadata": {
+      "csv_metadata": {
+        "column_statistics": [
+          {
+            "data_type": "numeric",
+            "fill_rate": 1.0,
+            "max_length": 2,
+            "name": "id",
+            "non_empty_count": 30,
+            "unique_values": 30
+          },
+          {
+            "data_type": "text",
+            "fill_rate": 1.0,
+            "max_length": 21,
+            "name": "company_name",
+            "non_empty_count": 30,
+            "unique_values": 30
+          },
+          {
+            "data_type": "text",
+            "fill_rate": 1.0,
+            "max_length": 21,
+            "name": "industry",
+            "non_empty_count": 30,
+            "unique_values": 28
+          },
+          {
+            "data_type": "text",
+            "fill_rate": 1.0,
+            "max_length": 14,
+            "name": "country",
+            "non_empty_count": 30,
+            "unique_values": 24
+          },
+          {
+            "data_type": "numeric",
+            "fill_rate": 1.0,
+            "max_length": 4,
+            "name": "revenue_2023",
+            "non_empty_count": 30,
+            "unique_values": 30
+          },
+          {
+            "data_type": "numeric",
+            "fill_rate": 1.0,
+            "max_length": 4,
+            "name": "revenue_2024",
+            "non_empty_count": 30,
+            "unique_values": 30
+          },
+          {
+            "data_type": "numeric",
+            "fill_rate": 1.0,
+            "max_length": 4,
+            "name": "employees",
+            "non_empty_count": 30,
+            "unique_values": 28
+          },
+          {
+            "data_type": "numeric",
+            "fill_rate": 1.0,
+            "max_length": 4,
+            "name": "founded_year",
+            "non_empty_count": 30,
+            "unique_values": 14
+          },
+          {
+            "data_type": "numeric",
+            "fill_rate": 1.0,
+            "max_length": 4,
+            "name": "market_cap_billions",
+            "non_empty_count": 30,
+            "unique_values": 30
+          },
+          {
+            "data_type": "text",
+            "fill_rate": 1.0,
+            "max_length": 25,
+            "name": "primary_product",
+            "non_empty_count": 30,
+            "unique_values": 30
+          },
+          {
+            "data_type": "text",
+            "fill_rate": 1.0,
+            "max_length": 22,
+            "name": "ceo",
+            "non_empty_count": 30,
+            "unique_values": 30
+          },
+          {
+            "data_type": "text",
+            "fill_rate": 1.0,
+            "max_length": 13,
+            "name": "headquarters_city",
+            "non_empty_count": 30,
+            "unique_values": 30
+          },
+          {
+            "data_type": "text",
+            "fill_rate": 1.0,
+            "max_length": 4,
+            "name": "stock_symbol",
+            "non_empty_count": 30,
+            "unique_values": 30
+          },
+          {
+            "data_type": "numeric",
+            "fill_rate": 1.0,
+            "max_length": 2,
+            "name": "esg_score",
+            "non_empty_count": 30,
+            "unique_values": 24
+          },
+          {
+            "data_type": "numeric",
+            "fill_rate": 1.0,
+            "max_length": 2,
+            "name": "innovation_index",
+            "non_empty_count": 30,
+            "unique_values": 21
+          },
+          {
+            "data_type": "numeric",
+            "fill_rate": 1.0,
+            "max_length": 3,
+            "name": "customer_satisfaction",
+            "non_empty_count": 30,
+            "unique_values": 8
+          },
+          {
+            "data_type": "numeric",
+            "fill_rate": 1.0,
+            "max_length": 2,
+            "name": "expansion_countries",
+            "non_empty_count": 30,
+            "unique_values": 20
+          },
+          {
+            "data_type": "numeric",
+            "fill_rate": 1.0,
+            "max_length": 2,
+            "name": "digital_transformation_score",
+            "non_empty_count": 30,
+            "unique_values": 26
+          },
+          {
+            "data_type": "numeric",
+            "fill_rate": 1.0,
+            "max_length": 2,
+            "name": "sustainability_ranking",
+            "non_empty_count": 30,
+            "unique_values": 30
+          }
+        ],
+        "data_completeness": 1.0,
+        "headers": [
+          "id",
+          "company_name",
+          "industry",
+          "country",
+          "revenue_2023",
+          "revenue_2024",
+          "employees",
+          "founded_year",
+          "market_cap_billions",
+          "primary_product",
+          "ceo",
+          "headquarters_city",
+          "stock_symbol",
+          "esg_score",
+          "innovation_index",
+          "customer_satisfaction",
+          "expansion_countries",
+          "digital_transformation_score",
+          "sustainability_ranking"
+        ],
+        "total_columns": 19,
+        "total_rows": 30
+      },
+      "detected_language": "fr",
+      "estimated_tokens": 1802,
+      "total_characters": 14453,
+      "total_words": 1355
+    }
+  },
+  "chunks": [
+    {
+      "id": "csv_chunk_0",
+      "content": "Headers: id, company_name, industry, country, revenue_2023, revenue_2024, employees, founded_year, market_cap_billions, primary_product, ceo, headquarters_city, stock_symbol, esg_score, innovation_index, customer_satisfaction, expansion_countries, digital_transformation_score, sustainability_ranking Row 1: id=\"1\", company_name=\"TechFlow Dynamics\", industry=\"Software\", country=\"United States\", revenue_2023=\"2.8\", revenue_2024=\"3.7\", employees=\"1247\", founded_year=\"2018\", market_cap_billions=\"15.2\", primary_product=\"AI Analytics Platform\", ceo=\"Sarah Chen\", headquarters_city=\"San Francisco\", stock_symbol=\"TFLW\", esg_score=\"78\", innovation_index=\"92\", customer_satisfaction=\"4.3\", expansion_countries=\"12\", digital_transformation_score=\"87\", sustainability_ranking=\"23\" Row 2: id=\"2\", company_name=\"GreenEnergy Solutions\", industry=\"Renewable Energy\", country=\"Germany\", revenue_2023=\"5.1\", revenue_2024=\"6.4\", employees=\"2856\", founded_year=\"2015\", market_cap_billions=\"28.9\",",
+      "chunk_index": 0,
+      "position": {
+        "page": null,
+        "line": null,
+        "start_offset": 0,
+        "end_offset": 982
+      },
+      "metadata": {
+        "size": 982,
+        "language": null,
+        "confidence": 1.0,
+        "format_specific": {
+          "contains_headers": true,
+          "estimated_rows": 0,
+          "estimated_tokens": 117,
+          "word_count": 88
+        }
+      }
+    },
+    {
+      "id": "csv_chunk_1",
+      "content": "e_2023=\"5.1\", revenue_2024=\"6.4\", employees=\"2856\", founded_year=\"2015\", market_cap_billions=\"28.9\", primary_product=\"Solar Panel Systems\", ceo=\"Klaus Mueller\", headquarters_city=\"Berlin\", stock_symbol=\"GREN\", esg_score=\"89\", innovation_index=\"85\", customer_satisfaction=\"4.1\", expansion_countries=\"18\", digital_transformation_score=\"79\", sustainability_ranking=\"8\" Row 3: id=\"3\", company_name=\"BioMed Innovations\", industry=\"Biotechnology\", country=\"Switzerland\", revenue_2023=\"1.9\", revenue_2024=\"2.3\", employees=\"892\", founded_year=\"2020\", market_cap_billions=\"8.7\", primary_product=\"Gene Therapy\", ceo=\"Dr. Marie Dubois\", headquarters_city=\"Zurich\", stock_symbol=\"BIOM\", esg_score=\"82\", innovation_index=\"96\", customer_satisfaction=\"4.5\", expansion_countries=\"6\", digital_transformation_score=\"91\", sustainability_ranking=\"15\" Row 4: id=\"4\", company_name=\"AutoDrive Systems\", industry=\"Automotive\", country=\"Japan\", revenue_2023=\"12.3\", revenue_2024=\"14.1\", employees=\"8924\",",
+      "chunk_index": 1,
+      "position": {
+        "page": null,
+        "line": null,
+        "start_offset": 882,
+        "end_offset": 1861
+      },
+      "metadata": {
+        "size": 979,
+        "language": null,
+        "confidence": 1.0,
+        "format_specific": {
+          "contains_headers": false,
+          "estimated_rows": 0,
+          "estimated_tokens": 125,
+          "word_count": 94
+        }
+      }
+    },
+    {
+      "id": "csv_chunk_2",
+      "content": " industry=\"Automotive\", country=\"Japan\", revenue_2023=\"12.3\", revenue_2024=\"14.1\", employees=\"8924\", founded_year=\"2012\", market_cap_billions=\"67.8\", primary_product=\"Autonomous Vehicle Tech\", ceo=\"Hiroshi Tanaka\", headquarters_city=\"Tokyo\", stock_symbol=\"AUTO\", esg_score=\"71\", innovation_index=\"88\", customer_satisfaction=\"3.9\", expansion_countries=\"25\", digital_transformation_score=\"84\", sustainability_ranking=\"31\" Row 5: id=\"5\", company_name=\"FinanceForward\", industry=\"Financial Services\", country=\"United Kingdom\", revenue_2023=\"8.9\", revenue_2024=\"10.2\", employees=\"3456\", founded_year=\"2016\", market_cap_billions=\"45.3\", primary_product=\"Digital Banking Platform\", ceo=\"Jennifer Smith\", headquarters_city=\"London\", stock_symbol=\"FINF\", esg_score=\"76\", innovation_index=\"79\", customer_satisfaction=\"4.2\", expansion_countries=\"14\", digital_transformation_score=\"93\", sustainability_ranking=\"42\" Row 6: id=\"6\", company_name=\"AgroTech Global\", industry=\"Agriculture\", country=\"Brazil\",",
+      "chunk_index": 2,
+      "position": {
+        "page": null,
+        "line": null,
+        "start_offset": 1761,
+        "end_offset": 2752
+      },
+      "metadata": {
+        "size": 991,
+        "language": null,
+        "confidence": 1.0,
+        "format_specific": {
+          "contains_headers": false,
+          "estimated_rows": 0,
+          "estimated_tokens": 123,
+          "word_count": 93
+        }
+      }
+    },
+    {
+      "id": "csv_chunk_3",
+      "content": "anking=\"42\" Row 6: id=\"6\", company_name=\"AgroTech Global\", industry=\"Agriculture\", country=\"Brazil\", revenue_2023=\"3.4\", revenue_2024=\"4.1\", employees=\"1567\", founded_year=\"2019\", market_cap_billions=\"12.5\", primary_product=\"Precision Farming Tools\", ceo=\"Carlos Rodriguez\", headquarters_city=\"São Paulo\", stock_symbol=\"AGRO\", esg_score=\"84\", innovation_index=\"81\", customer_satisfaction=\"4.0\", expansion_countries=\"9\", digital_transformation_score=\"72\", sustainability_ranking=\"19\" Row 7: id=\"7\", company_name=\"SpaceVenture Corp\", industry=\"Aerospace\", country=\"United States\", revenue_2023=\"6.7\", revenue_2024=\"8.9\", employees=\"2134\", founded_year=\"2014\", market_cap_billions=\"32.1\", primary_product=\"Satellite Manufacturing\", ceo=\"Michael Foster\", headquarters_city=\"Los Angeles\", stock_symbol=\"SPAC\", esg_score=\"68\", innovation_index=\"94\", customer_satisfaction=\"4.1\", expansion_countries=\"8\", digital_transformation_score=\"86\", sustainability_ranking=\"28\" Row 8: id=\"8\",",
+      "chunk_index": 3,
+      "position": {
+        "page": null,
+        "line": null,
+        "start_offset": 2652,
+        "end_offset": 3628
+      },
+      "metadata": {
+        "size": 976,
+        "language": null,
+        "confidence": 1.0,
+        "format_specific": {
+          "contains_headers": false,
+          "estimated_rows": 0,
+          "estimated_tokens": 127,
+          "word_count": 96
+        }
+      }
+    },
+    {
+      "id": "csv_chunk_4",
+      "content": "pansion_countries=\"8\", digital_transformation_score=\"86\", sustainability_ranking=\"28\" Row 8: id=\"8\", company_name=\"HealthFirst Digital\", industry=\"Healthcare\", country=\"Canada\", revenue_2023=\"4.2\", revenue_2024=\"5.8\", employees=\"1823\", founded_year=\"2017\", market_cap_billions=\"19.6\", primary_product=\"Telemedicine Platform\", ceo=\"Dr. Lisa Wang\", headquarters_city=\"Toronto\", stock_symbol=\"HEAL\", esg_score=\"85\", innovation_index=\"83\", customer_satisfaction=\"4.4\", expansion_countries=\"11\", digital_transformation_score=\"88\", sustainability_ranking=\"12\" Row 9: id=\"9\", company_name=\"EduTech Worldwide\", industry=\"Education Technology\", country=\"India\", revenue_2023=\"1.6\", revenue_2024=\"2.1\", employees=\"743\", founded_year=\"2021\", market_cap_billions=\"5.9\", primary_product=\"Online Learning Platform\", ceo=\"Rajesh Patel\", headquarters_city=\"Bangalore\", stock_symbol=\"EDUT\", esg_score=\"79\", innovation_index=\"87\", customer_satisfaction=\"4.2\", expansion_countries=\"7\",",
+      "chunk_index": 4,
+      "position": {
+        "page": null,
+        "line": null,
+        "start_offset": 3528,
+        "end_offset": 4494
+      },
+      "metadata": {
+        "size": 966,
+        "language": null,
+        "confidence": 1.0,
+        "format_specific": {
+          "contains_headers": false,
+          "estimated_rows": 0,
+          "estimated_tokens": 121,
+          "word_count": 91
+        }
+      }
+    },
+    {
+      "id": "csv_chunk_5",
+      "content": "\"EDUT\", esg_score=\"79\", innovation_index=\"87\", customer_satisfaction=\"4.2\", expansion_countries=\"7\", digital_transformation_score=\"82\", sustainability_ranking=\"35\" Row 10: id=\"10\", company_name=\"CleanWater Systems\", industry=\"Environmental\", country=\"Netherlands\", revenue_2023=\"2.3\", revenue_2024=\"2.9\", employees=\"1089\", founded_year=\"2016\", market_cap_billions=\"11.4\", primary_product=\"Water Purification Tech\", ceo=\"Anna van Berg\", headquarters_city=\"Amsterdam\", stock_symbol=\"CLEA\", esg_score=\"91\", innovation_index=\"78\", customer_satisfaction=\"4.3\", expansion_countries=\"15\", digital_transformation_score=\"76\", sustainability_ranking=\"5\" Row 11: id=\"11\", company_name=\"FoodTech Innovations\", industry=\"Food Technology\", country=\"France\", revenue_2023=\"3.8\", revenue_2024=\"4.6\", employees=\"1456\", founded_year=\"2018\", market_cap_billions=\"16.7\", primary_product=\"Plant-Based Proteins\", ceo=\"Pierre Moreau\", headquarters_city=\"Lyon\", stock_symbol=\"FOOD\", esg_score=\"83\", innovation_index=\"82\",",
+      "chunk_index": 5,
+      "position": {
+        "page": null,
+        "line": null,
+        "start_offset": 4394,
+        "end_offset": 5391
+      },
+      "metadata": {
+        "size": 997,
+        "language": null,
+        "confidence": 1.0,
+        "format_specific": {
+          "contains_headers": false,
+          "estimated_rows": 0,
+          "estimated_tokens": 126,
+          "word_count": 95
+        }
+      }
+    },
+    {
+      "id": "csv_chunk_6",
+      "content": "ierre Moreau\", headquarters_city=\"Lyon\", stock_symbol=\"FOOD\", esg_score=\"83\", innovation_index=\"82\", customer_satisfaction=\"4.0\", expansion_countries=\"13\", digital_transformation_score=\"74\", sustainability_ranking=\"21\" Row 12: id=\"12\", company_name=\"CyberSecure Pro\", industry=\"Cybersecurity\", country=\"Israel\", revenue_2023=\"2.1\", revenue_2024=\"2.8\", employees=\"934\", founded_year=\"2019\", market_cap_billions=\"9.3\", primary_product=\"Enterprise Security Suite\", ceo=\"David Goldberg\", headquarters_city=\"Tel Aviv\", stock_symbol=\"CYBR\", esg_score=\"77\", innovation_index=\"91\", customer_satisfaction=\"4.4\", expansion_countries=\"10\", digital_transformation_score=\"90\", sustainability_ranking=\"38\" Row 13: id=\"13\", company_name=\"LogiChain Global\", industry=\"Supply Chain\", country=\"Singapore\", revenue_2023=\"7.5\", revenue_2024=\"9.1\", employees=\"2687\", founded_year=\"2013\", market_cap_billions=\"38.4\", primary_product=\"Logistics Optimization\", ceo=\"Lin Wei Ming\", headquarters_city=\"Singapore\",",
+      "chunk_index": 6,
+      "position": {
+        "page": null,
+        "line": null,
+        "start_offset": 5291,
+        "end_offset": 6278
+      },
+      "metadata": {
+        "size": 987,
+        "language": null,
+        "confidence": 1.0,
+        "format_specific": {
+          "contains_headers": false,
+          "estimated_rows": 0,
+          "estimated_tokens": 125,
+          "word_count": 94
+        }
+      }
+    },
+    {
+      "id": "csv_chunk_7",
+      "content": "\"38.4\", primary_product=\"Logistics Optimization\", ceo=\"Lin Wei Ming\", headquarters_city=\"Singapore\", stock_symbol=\"LOGI\", esg_score=\"74\", innovation_index=\"86\", customer_satisfaction=\"3.8\", expansion_countries=\"22\", digital_transformation_score=\"85\", sustainability_ranking=\"44\" Row 14: id=\"14\", company_name=\"RetailTech Plus\", industry=\"Retail Technology\", country=\"Australia\", revenue_2023=\"5.3\", revenue_2024=\"6.7\", employees=\"1998\", founded_year=\"2015\", market_cap_billions=\"23.8\", primary_product=\"E-commerce Platform\", ceo=\"Emma Thompson\", headquarters_city=\"Sydney\", stock_symbol=\"RETL\", esg_score=\"72\", innovation_index=\"80\", customer_satisfaction=\"4.1\", expansion_countries=\"16\", digital_transformation_score=\"81\", sustainability_ranking=\"46\" Row 15: id=\"15\", company_name=\"MobilityNext\", industry=\"Transportation\", country=\"Sweden\", revenue_2023=\"4.9\", revenue_2024=\"6.2\", employees=\"1734\", founded_year=\"2017\", market_cap_billions=\"21.5\", primary_product=\"Electric Vehicle Charging\",",
+      "chunk_index": 7,
+      "position": {
+        "page": null,
+        "line": null,
+        "start_offset": 6178,
+        "end_offset": 7172
+      },
+      "metadata": {
+        "size": 994,
+        "language": null,
+        "confidence": 1.0,
+        "format_specific": {
+          "contains_headers": false,
+          "estimated_rows": 0,
+          "estimated_tokens": 123,
+          "word_count": 93
+        }
+      }
+    },
+    {
+      "id": "csv_chunk_8",
+      "content": "1734\", founded_year=\"2017\", market_cap_billions=\"21.5\", primary_product=\"Electric Vehicle Charging\", ceo=\"Lars Andersen\", headquarters_city=\"Stockholm\", stock_symbol=\"MOBI\", esg_score=\"88\", innovation_index=\"89\", customer_satisfaction=\"4.2\", expansion_countries=\"19\", digital_transformation_score=\"83\", sustainability_ranking=\"11\" Row 16: id=\"16\", company_name=\"GameForge Studios\", industry=\"Gaming\", country=\"South Korea\", revenue_2023=\"8.1\", revenue_2024=\"10.4\", employees=\"3245\", founded_year=\"2011\", market_cap_billions=\"42.7\", primary_product=\"Mobile Gaming Platform\", ceo=\"Kim Min-jun\", headquarters_city=\"Seoul\", stock_symbol=\"GAME\", esg_score=\"69\", innovation_index=\"85\", customer_satisfaction=\"4.0\", expansion_countries=\"8\", digital_transformation_score=\"77\", sustainability_ranking=\"52\" Row 17: id=\"17\", company_name=\"CloudVault Systems\", industry=\"Cloud Computing\", country=\"Ireland\", revenue_2023=\"3.6\", revenue_2024=\"4.8\", employees=\"1567\", founded_year=\"2020\",",
+      "chunk_index": 8,
+      "position": {
+        "page": null,
+        "line": null,
+        "start_offset": 7072,
+        "end_offset": 8046
+      },
+      "metadata": {
+        "size": 974,
+        "language": null,
+        "confidence": 1.0,
+        "format_specific": {
+          "contains_headers": false,
+          "estimated_rows": 0,
+          "estimated_tokens": 125,
+          "word_count": 94
+        }
+      }
+    },
+    {
+      "id": "csv_chunk_9",
+      "content": "\", country=\"Ireland\", revenue_2023=\"3.6\", revenue_2024=\"4.8\", employees=\"1567\", founded_year=\"2020\", market_cap_billions=\"17.2\", primary_product=\"Data Storage Solutions\", ceo=\"Paddy O'Connor\", headquarters_city=\"Dublin\", stock_symbol=\"CLOU\", esg_score=\"75\", innovation_index=\"88\", customer_satisfaction=\"4.3\", expansion_countries=\"12\", digital_transformation_score=\"89\", sustainability_ranking=\"33\" Row 18: id=\"18\", company_name=\"RoboticsLab\", industry=\"Industrial Automation\", country=\"Italy\", revenue_2023=\"2.7\", revenue_2024=\"3.4\", employees=\"1123\", founded_year=\"2018\", market_cap_billions=\"13.6\", primary_product=\"Manufacturing Robots\", ceo=\"Marco Rossi\", headquarters_city=\"Milan\", stock_symbol=\"ROBO\", esg_score=\"73\", innovation_index=\"93\", customer_satisfaction=\"3.9\", expansion_countries=\"9\", digital_transformation_score=\"78\", sustainability_ranking=\"40\" Row 19: id=\"19\", company_name=\"EnergyWise Corp\", industry=\"Smart Grid\", country=\"Norway\", revenue_2023=\"4.1\", revenue_2024=\"5.3\",",
+      "chunk_index": 9,
+      "position": {
+        "page": null,
+        "line": null,
+        "start_offset": 7946,
+        "end_offset": 8940
+      },
+      "metadata": {
+        "size": 994,
+        "language": null,
+        "confidence": 1.0,
+        "format_specific": {
+          "contains_headers": false,
+          "estimated_rows": 0,
+          "estimated_tokens": 125,
+          "word_count": 94
+        }
+      }
+    },
+    {
+      "id": "csv_chunk_10",
+      "content": "=\"EnergyWise Corp\", industry=\"Smart Grid\", country=\"Norway\", revenue_2023=\"4.1\", revenue_2024=\"5.3\", employees=\"1889\", founded_year=\"2016\", market_cap_billions=\"22.3\", primary_product=\"Grid Management Systems\", ceo=\"Ingrid Hansen\", headquarters_city=\"Oslo\", stock_symbol=\"ENER\", esg_score=\"87\", innovation_index=\"84\", customer_satisfaction=\"4.1\", expansion_countries=\"17\", digital_transformation_score=\"80\", sustainability_ranking=\"14\" Row 20: id=\"20\", company_name=\"PharmaNext\", industry=\"Pharmaceuticals\", country=\"Belgium\", revenue_2023=\"11.2\", revenue_2024=\"13.6\", employees=\"4567\", founded_year=\"2009\", market_cap_billions=\"78.9\", primary_product=\"Personalized Medicine\", ceo=\"Dr. Philippe Delacroix\", headquarters_city=\"Brussels\", stock_symbol=\"PHAR\", esg_score=\"81\", innovation_index=\"90\", customer_satisfaction=\"4.2\", expansion_countries=\"21\", digital_transformation_score=\"75\", sustainability_ranking=\"29\" Row 21: id=\"21\", company_name=\"QuantumLeap Tech\", industry=\"Quantum Computing\",",
+      "chunk_index": 10,
+      "position": {
+        "page": null,
+        "line": null,
+        "start_offset": 8840,
+        "end_offset": 9834
+      },
+      "metadata": {
+        "size": 994,
+        "language": null,
+        "confidence": 1.0,
+        "format_specific": {
+          "contains_headers": false,
+          "estimated_rows": 0,
+          "estimated_tokens": 123,
+          "word_count": 93
+        }
+      }
+    },
+    {
+      "id": "csv_chunk_11",
+      "content": "ability_ranking=\"29\" Row 21: id=\"21\", company_name=\"QuantumLeap Tech\", industry=\"Quantum Computing\", country=\"United States\", revenue_2023=\"1.4\", revenue_2024=\"2.0\", employees=\"567\", founded_year=\"2022\", market_cap_billions=\"6.1\", primary_product=\"Quantum Processors\", ceo=\"Dr. Rachel Adams\", headquarters_city=\"Boston\", stock_symbol=\"QUAN\", esg_score=\"80\", innovation_index=\"98\", customer_satisfaction=\"4.5\", expansion_countries=\"4\", digital_transformation_score=\"95\", sustainability_ranking=\"25\" Row 22: id=\"22\", company_name=\"AeroSpace Dynamics\", industry=\"Aerospace\", country=\"United Kingdom\", revenue_2023=\"9.8\", revenue_2024=\"11.7\", employees=\"3789\", founded_year=\"2010\", market_cap_billions=\"56.4\", primary_product=\"Aircraft Components\", ceo=\"Sir James Wright\", headquarters_city=\"Manchester\", stock_symbol=\"AERO\", esg_score=\"70\", innovation_index=\"87\", customer_satisfaction=\"3.8\", expansion_countries=\"13\", digital_transformation_score=\"73\", sustainability_ranking=\"48\" Row 23: id=\"23\",",
+      "chunk_index": 11,
+      "position": {
+        "page": null,
+        "line": null,
+        "start_offset": 9734,
+        "end_offset": 10729
+      },
+      "metadata": {
+        "size": 995,
+        "language": null,
+        "confidence": 1.0,
+        "format_specific": {
+          "contains_headers": false,
+          "estimated_rows": 0,
+          "estimated_tokens": 129,
+          "word_count": 97
+        }
+      }
+    },
+    {
+      "id": "csv_chunk_12",
+      "content": "sion_countries=\"13\", digital_transformation_score=\"73\", sustainability_ranking=\"48\" Row 23: id=\"23\", company_name=\"NanoMaterials Inc\", industry=\"Materials Science\", country=\"Japan\", revenue_2023=\"2.9\", revenue_2024=\"3.6\", employees=\"1245\", founded_year=\"2019\", market_cap_billions=\"14.8\", primary_product=\"Nanotechnology Solutions\", ceo=\"Yuki Yamamoto\", headquarters_city=\"Osaka\", stock_symbol=\"NANO\", esg_score=\"78\", innovation_index=\"95\", customer_satisfaction=\"4.0\", expansion_countries=\"7\", digital_transformation_score=\"84\", sustainability_ranking=\"27\" Row 24: id=\"24\", company_name=\"SmartHome Systems\", industry=\"IoT\", country=\"China\", revenue_2023=\"6.3\", revenue_2024=\"8.1\", employees=\"2456\", founded_year=\"2014\", market_cap_billions=\"34.2\", primary_product=\"Home Automation\", ceo=\"Zhang Wei\", headquarters_city=\"Shenzhen\", stock_symbol=\"SMRT\", esg_score=\"71\", innovation_index=\"81\", customer_satisfaction=\"3.9\", expansion_countries=\"20\", digital_transformation_score=\"86\",",
+      "chunk_index": 12,
+      "position": {
+        "page": null,
+        "line": null,
+        "start_offset": 10629,
+        "end_offset": 11609
+      },
+      "metadata": {
+        "size": 980,
+        "language": null,
+        "confidence": 1.0,
+        "format_specific": {
+          "contains_headers": false,
+          "estimated_rows": 0,
+          "estimated_tokens": 121,
+          "word_count": 91
+        }
+      }
+    },
+    {
+      "id": "csv_chunk_13",
+      "content": "ndex=\"81\", customer_satisfaction=\"3.9\", expansion_countries=\"20\", digital_transformation_score=\"86\", sustainability_ranking=\"41\" Row 25: id=\"25\", company_name=\"BioFuel Dynamics\", industry=\"Renewable Energy\", country=\"United States\", revenue_2023=\"3.5\", revenue_2024=\"4.4\", employees=\"1678\", founded_year=\"2017\", market_cap_billions=\"18.9\", primary_product=\"Biofuel Production\", ceo=\"Maria Gonzalez\", headquarters_city=\"Houston\", stock_symbol=\"BIOF\", esg_score=\"86\", innovation_index=\"76\", customer_satisfaction=\"4.1\", expansion_countries=\"11\", digital_transformation_score=\"69\", sustainability_ranking=\"16\" Row 26: id=\"26\", company_name=\"VirtualReality Pro\", industry=\"Virtual Reality\", country=\"Finland\", revenue_2023=\"1.8\", revenue_2024=\"2.4\", employees=\"623\", founded_year=\"2020\", market_cap_billions=\"7.4\", primary_product=\"VR Headsets\", ceo=\"Mikko Virtanen\", headquarters_city=\"Helsinki\", stock_symbol=\"VIRT\", esg_score=\"76\", innovation_index=\"92\", customer_satisfaction=\"4.3\",",
+      "chunk_index": 13,
+      "position": {
+        "page": null,
+        "line": null,
+        "start_offset": 11509,
+        "end_offset": 12491
+      },
+      "metadata": {
+        "size": 982,
+        "language": null,
+        "confidence": 1.0,
+        "format_specific": {
+          "contains_headers": false,
+          "estimated_rows": 0,
+          "estimated_tokens": 123,
+          "word_count": 93
+        }
+      }
+    },
+    {
+      "id": "csv_chunk_14",
+      "content": "\"Helsinki\", stock_symbol=\"VIRT\", esg_score=\"76\", innovation_index=\"92\", customer_satisfaction=\"4.3\", expansion_countries=\"5\", digital_transformation_score=\"88\", sustainability_ranking=\"36\" Row 27: id=\"27\", company_name=\"OceanTech Marine\", industry=\"Marine Technology\", country=\"Norway\", revenue_2023=\"2.6\", revenue_2024=\"3.2\", employees=\"987\", founded_year=\"2018\", market_cap_billions=\"12.1\", primary_product=\"Underwater Robotics\", ceo=\"Astrid Fjord\", headquarters_city=\"Bergen\", stock_symbol=\"OCEA\", esg_score=\"89\", innovation_index=\"83\", customer_satisfaction=\"4.2\", expansion_countries=\"8\", digital_transformation_score=\"71\", sustainability_ranking=\"9\" Row 28: id=\"28\", company_name=\"SolarMax Energy\", industry=\"Solar Energy\", country=\"Spain\", revenue_2023=\"4.7\", revenue_2024=\"5.9\", employees=\"2134\", founded_year=\"2015\", market_cap_billions=\"25.6\", primary_product=\"Solar Installations\", ceo=\"Pablo Martinez\", headquarters_city=\"Madrid\", stock_symbol=\"SOLA\", esg_score=\"90\",",
+      "chunk_index": 14,
+      "position": {
+        "page": null,
+        "line": null,
+        "start_offset": 12391,
+        "end_offset": 13370
+      },
+      "metadata": {
+        "size": 979,
+        "language": null,
+        "confidence": 1.0,
+        "format_specific": {
+          "contains_headers": false,
+          "estimated_rows": 0,
+          "estimated_tokens": 123,
+          "word_count": 93
+        }
+      }
+    },
+    {
+      "id": "csv_chunk_15",
+      "content": "stallations\", ceo=\"Pablo Martinez\", headquarters_city=\"Madrid\", stock_symbol=\"SOLA\", esg_score=\"90\", innovation_index=\"79\", customer_satisfaction=\"4.0\", expansion_countries=\"16\", digital_transformation_score=\"68\", sustainability_ranking=\"7\" Row 29: id=\"29\", company_name=\"CryptoSafe Systems\", industry=\"Blockchain\", country=\"Estonia\", revenue_2023=\"1.3\", revenue_2024=\"1.9\", employees=\"456\", founded_year=\"2021\", market_cap_billions=\"4.8\", primary_product=\"Blockchain Security\", ceo=\"Kristjan Kask\", headquarters_city=\"Tallinn\", stock_symbol=\"CRYP\", esg_score=\"74\", innovation_index=\"89\", customer_satisfaction=\"4.4\", expansion_countries=\"6\", digital_transformation_score=\"92\", sustainability_ranking=\"43\" Row 30: id=\"30\", company_name=\"MedDevice Innovations\", industry=\"Medical Devices\", country=\"Denmark\", revenue_2023=\"3.1\", revenue_2024=\"3.9\", employees=\"1345\", founded_year=\"2016\", market_cap_billions=\"15.7\", primary_product=\"Surgical Robotics\", ceo=\"Morten Nielsen\",",
+      "chunk_index": 15,
+      "position": {
+        "page": null,
+        "line": null,
+        "start_offset": 13270,
+        "end_offset": 14243
+      },
+      "metadata": {
+        "size": 973,
+        "language": null,
+        "confidence": 1.0,
+        "format_specific": {
+          "contains_headers": false,
+          "estimated_rows": 0,
+          "estimated_tokens": 121,
+          "word_count": 91
+        }
+      }
+    },
+    {
+      "id": "csv_chunk_16",
+      "content": "_year=\"2016\", market_cap_billions=\"15.7\", primary_product=\"Surgical Robotics\", ceo=\"Morten Nielsen\", headquarters_city=\"Copenhagen\", stock_symbol=\"MEDD\", esg_score=\"83\", innovation_index=\"86\", customer_satisfaction=\"4.3\", expansion_countries=\"12\", digital_transformation_score=\"87\", sustainability_ranking=\"18\"",
+      "chunk_index": 16,
+      "position": {
+        "page": null,
+        "line": null,
+        "start_offset": 14143,
+        "end_offset": 14453
+      },
+      "metadata": {
+        "size": 310,
+        "language": null,
+        "confidence": 1.0,
+        "format_specific": {
+          "contains_headers": false,
+          "estimated_rows": 0,
+          "estimated_tokens": 34,
+          "word_count": 26
+        }
+      }
+    }
+  ],
+  "processing_info": {
+    "processor": "CsvProcessor",
+    "processor_version": "1.0.0",
+    "processed_at": "2025-07-04T21:51:26.730018036Z",
+    "processing_time_ms": 3,
+    "total_chunks": 17,
+    "total_content_size": 14453,
+    "processing_params": {
+      "max_chunk_size": 1000,
+      "chunk_overlap": 100,
+      "text_cleaning": true,
+      "language_detection": false,
+      "format_specific": null
+    }
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "document_metadata": {
+    "filename": "sample_document.txt",
+    "filepath": "test_corpus/sample_document.txt",
+    "document_type": "TXT",
+    "file_size": 5652,
+    "created_at": "2025-07-04T21:41:55.763792213Z",
+    "modified_at": "2025-07-04T21:41:56.013808858Z",
+    "title": null,
+    "author": null,
+    "format_metadata": {
+      "detected_language": "fr",
+      "encoding": "UTF-8",
+      "estimated_tokens": 965,
+      "total_characters": 5248,
+      "total_lines": 1,
+      "total_words": 726
+    }
+  },
+  "chunks": [
+    {
+      "id": "txt_chunk_0",
+      "content": "# Sample Document for PDF Conversion ## Chapter 1: Introduction to Document Processing This is a sample document created to test the doc_loader project. This document contains various types of content to evaluate how well the document processing system handles different text structures. ### 1.1 Background Document processing is a crucial component in modern information systems. The ability to extract, analyze, and structure content from various document formats enables: - Information retrieval systems - Content management platforms - Knowledge extraction pipelines - Vector database preparation ### 1.2 Objectives The main objectives of this test document are: 1. **Text Extraction Testing**: Verify that the system can correctly extract plain text from PDF documents 2. **Chunk Analysis**: Evaluate how the system divides content into meaningful chunks 3. **Metadata Extraction**: Test the extraction of document metadata and structural information 4. **Quality Assessment**: Assess the",
+      "chunk_index": 0,
+      "position": {
+        "page": null,
+        "line": 0,
+        "start_offset": 0,
+        "end_offset": 993
+      },
+      "metadata": {
+        "size": 993,
+        "language": null,
+        "confidence": 1.0,
+        "format_specific": {
+          "estimated_tokens": 176,
+          "line_count": 1,
+          "word_count": 133
+        }
+      }
+    },
+    {
+      "id": "txt_chunk_1",
+      "content": "the extraction of document metadata and structural information 4. **Quality Assessment**: Assess the overall quality of processed output for vector store usage ## Chapter 2: Content Diversity ### 2.1 Scientific Content In quantum mechanics, the wave function ψ(x,t) describes the quantum state of a system. The Schrödinger equation: iℏ ∂ψ/∂t = Ĥψ where Ĥ is the Hamiltonian operator, governs the time evolution of quantum systems. ### 2.2 Literary Content \"To be, or not to be, that is the question: Whether 'tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take arms against a sea of troubles And by opposing end them.\" This famous soliloquy from Shakespeare's Hamlet demonstrates the system's ability to handle poetic and dramatic text. ### 2.3 Technical Documentation ```python def process_document(file_path, chunk_size=1000): \"\"\" Process a document and return structured output. Args: file_path (str): Path to the document file chunk_size (int): Maximum size",
+      "chunk_index": 1,
+      "position": {
+        "page": null,
+        "line": 1,
+        "start_offset": 893,
+        "end_offset": 1903
+      },
+      "metadata": {
+        "size": 1010,
+        "language": null,
+        "confidence": 1.0,
+        "format_specific": {
+          "estimated_tokens": 200,
+          "line_count": 1,
+          "word_count": 151
+        }
+      }
+    },
+    {
+      "id": "txt_chunk_2",
+      "content": "n structured output. Args: file_path (str): Path to the document file chunk_size (int): Maximum size of text chunks Returns: dict: Processed document data \"\"\" processor = DocumentProcessor() return processor.process(file_path, chunk_size) ``` ### 2.4 Data and Statistics The following table shows sample performance metrics: | Format | Processing Time (ms) | Accuracy (%) | Chunk Count | |--------|---------------------|--------------|-------------| | PDF | 150 | 95.2 | 25 | | TXT | 45 | 98.7 | 18 | | JSON | 78 | 92.1 | 12 | | CSV | 62 | 89.5 | 8 | | DOCX | 210 | 94.3 | 32 | ## Chapter 3: Special Characters and Formatting ### 3.1 Unicode and International Characters This section tests handling of international characters: - French: \"Bonjour, comment allez-vous? Ça va bien, merci!\" - German: \"Guten Tag! Wie geht es Ihnen? Danke schön!\" - Spanish: \"¡Hola! ¿Cómo está usted? ¡Muy bien, gracias!\" - Russian: \"Привет! Как дела? Хорошо, спасибо!\" - Chinese: \"你好！你好吗？很好，谢谢！\" - Japanese:",
+      "chunk_index": 2,
+      "position": {
+        "page": null,
+        "line": 2,
+        "start_offset": 1803,
+        "end_offset": 2849
+      },
+      "metadata": {
+        "size": 1046,
+        "language": null,
+        "confidence": 1.0,
+        "format_specific": {
+          "estimated_tokens": 170,
+          "line_count": 1,
+          "word_count": 128
+        }
+      }
+    },
+    {
+      "id": "txt_chunk_3",
+      "content": "en, gracias!\" - Russian: \"Привет! Как дела? Хорошо, спасибо!\" - Chinese: \"你好！你好吗？很好，谢谢！\" - Japanese: \"こんにちは！元気ですか？元気です、ありがとう！\" - Arabic: \"مرحبا! كيف حالك؟ بخير، شكرا!\" ### 3.2 Mathematical Expressions Mathematical formulas and symbols: - Euler's identity: e^(iπ) + 1 = 0 - Pythagorean theorem: a² + b² = c² - Integral: ∫₀^∞ e^(-x²) dx = √π/2 - Summation: Σ_{n=1}^∞ 1/n² = π²/6 ### 3.3 Special Symbols Various special symbols and punctuation: - Currency: $ € £ ¥ ₹ ₿ - Mathematical: ± × ÷ ∞ ≤ ≥ ≠ ≈ ∝ - Arrows: → ← ↑ ↓ ↔ ⇒ ⇐ ⇔ - Greek letters: α β γ δ ε ζ η θ ι κ λ μ ν ξ ο π ρ σ τ υ φ χ ψ ω ## Chapter 4: Document Structure Testing ### 4.1 Nested Lists 1. **Primary Level** - Secondary item A - Secondary item B * Tertiary item 1 * Tertiary item 2 - Quaternary item i - Quaternary item ii - Secondary item C 2. **Another Primary Level** a. Alphabetic sub-item b. Another alphabetic sub-item i. Roman numeral sub-sub-item ii. Another roman numeral sub-sub-item ### 4.2 Quote Blocks > \"The best way to",
+      "chunk_index": 3,
+      "position": {
+        "page": null,
+        "line": 3,
+        "start_offset": 2697,
+        "end_offset": 3899
+      },
+      "metadata": {
+        "size": 1202,
+        "language": null,
+        "confidence": 1.0,
+        "format_specific": {
+          "estimated_tokens": 246,
+          "line_count": 1,
+          "word_count": 185
+        }
+      }
+    },
+    {
+      "id": "txt_chunk_4",
+      "content": " numeral sub-sub-item ii. Another roman numeral sub-sub-item ### 4.2 Quote Blocks > \"The best way to predict the future is to invent it.\" - Alan Kay > \"In the midst of winter, I found there was, within me, an invincible summer.\" - Albert Camus > \"The only way to do great work is to love what you do.\" - Steve Jobs ### 4.3 Code Blocks ```json { \"document_id\": \"sample_doc_001\", \"type\": \"test_document\", \"metadata\": { \"title\": \"Sample Document for Testing\", \"author\": \"Doc Loader Test Suite\", \"created\": \"2025-01-01T12:00:00Z\", \"language\": \"en\", \"pages\": 3 }, \"chunks\": [ { \"id\": \"chunk_001\", \"content\": \"Sample content...\", \"position\": {\"page\": 1, \"line\": 1} } ] } ``` ## Chapter 5: Conclusion This document serves as a comprehensive test case for the doc_loader system. It includes: ✓ Multiple content types (scientific, literary, technical) ✓ Various formatting elements (lists, tables, quotes, code) ✓ International characters and special symbols ✓ Mathematical expressions and formulas ✓",
+      "chunk_index": 4,
+      "position": {
+        "page": null,
+        "line": 4,
+        "start_offset": 3799,
+        "end_offset": 4800
+      },
+      "metadata": {
+        "size": 1001,
+        "language": null,
+        "confidence": 1.0,
+        "format_specific": {
+          "estimated_tokens": 182,
+          "line_count": 1,
+          "word_count": 137
+        }
+      }
+    },
+    {
+      "id": "txt_chunk_5",
+      "content": "otes, code) ✓ International characters and special symbols ✓ Mathematical expressions and formulas ✓ Structured data representations The successful processing of this document indicates that the doc_loader system can handle diverse content types and extract meaningful information for vector store applications. --- **Document Statistics:** - Estimated word count: ~800 words - Chapters: 5 - Sections: 15 subsections - Tables: 1 - Code blocks: 2 - Languages represented: 8 - Special character sets: Multiple This concludes the sample test document.",
+      "chunk_index": 5,
+      "position": {
+        "page": null,
+        "line": 5,
+        "start_offset": 4694,
+        "end_offset": 5248
+      },
+      "metadata": {
+        "size": 554,
+        "language": null,
+        "confidence": 1.0,
+        "format_specific": {
+          "estimated_tokens": 90,
+          "line_count": 1,
+          "word_count": 68
+        }
+      }
+    }
+  ],
+  "processing_info": {
+    "processor": "TxtProcessor",
+    "processor_version": "1.0.0",
+    "processed_at": "2025-07-04T21:51:05.917662338Z",
+    "processing_time_ms": 1,
+    "total_chunks": 6,
+    "total_content_size": 5248,
+    "processing_params": {
+      "max_chunk_size": 1000,
+      "chunk_overlap": 100,
+      "text_cleaning": true,
+      "language_detection": false,
+      "format_specific": null
+    }
+  }
+}

@@ -1,0 +1,31 @@
+id,company_name,industry,country,revenue_2023,revenue_2024,employees,founded_year,market_cap_billions,primary_product,ceo,headquarters_city,stock_symbol,esg_score,innovation_index,customer_satisfaction,expansion_countries,digital_transformation_score,sustainability_ranking
+1,TechFlow Dynamics,Software,United States,2.8,3.7,1247,2018,15.2,AI Analytics Platform,Sarah Chen,San Francisco,TFLW,78,92,4.3,12,87,23
+2,GreenEnergy Solutions,Renewable Energy,Germany,5.1,6.4,2856,2015,28.9,Solar Panel Systems,Klaus Mueller,Berlin,GREN,89,85,4.1,18,79,8
+3,BioMed Innovations,Biotechnology,Switzerland,1.9,2.3,892,2020,8.7,Gene Therapy,Dr. Marie Dubois,Zurich,BIOM,82,96,4.5,6,91,15
+4,AutoDrive Systems,Automotive,Japan,12.3,14.1,8924,2012,67.8,Autonomous Vehicle Tech,Hiroshi Tanaka,Tokyo,AUTO,71,88,3.9,25,84,31
+5,FinanceForward,Financial Services,United Kingdom,8.9,10.2,3456,2016,45.3,Digital Banking Platform,Jennifer Smith,London,FINF,76,79,4.2,14,93,42
+6,AgroTech Global,Agriculture,Brazil,3.4,4.1,1567,2019,12.5,Precision Farming Tools,Carlos Rodriguez,São Paulo,AGRO,84,81,4.0,9,72,19
+7,SpaceVenture Corp,Aerospace,United States,6.7,8.9,2134,2014,32.1,Satellite Manufacturing,Michael Foster,Los Angeles,SPAC,68,94,4.1,8,86,28
+8,HealthFirst Digital,Healthcare,Canada,4.2,5.8,1823,2017,19.6,Telemedicine Platform,Dr. Lisa Wang,Toronto,HEAL,85,83,4.4,11,88,12
+9,EduTech Worldwide,Education Technology,India,1.6,2.1,743,2021,5.9,Online Learning Platform,Rajesh Patel,Bangalore,EDUT,79,87,4.2,7,82,35
+10,CleanWater Systems,Environmental,Netherlands,2.3,2.9,1089,2016,11.4,Water Purification Tech,Anna van Berg,Amsterdam,CLEA,91,78,4.3,15,76,5
+11,FoodTech Innovations,Food Technology,France,3.8,4.6,1456,2018,16.7,Plant-Based Proteins,Pierre Moreau,Lyon,FOOD,83,82,4.0,13,74,21
+12,CyberSecure Pro,Cybersecurity,Israel,2.1,2.8,934,2019,9.3,Enterprise Security Suite,David Goldberg,Tel Aviv,CYBR,77,91,4.4,10,90,38
+13,LogiChain Global,Supply Chain,Singapore,7.5,9.1,2687,2013,38.4,Logistics Optimization,Lin Wei Ming,Singapore,LOGI,74,86,3.8,22,85,44
+14,RetailTech Plus,Retail Technology,Australia,5.3,6.7,1998,2015,23.8,E-commerce Platform,Emma Thompson,Sydney,RETL,72,80,4.1,16,81,46
+15,MobilityNext,Transportation,Sweden,4.9,6.2,1734,2017,21.5,Electric Vehicle Charging,Lars Andersen,Stockholm,MOBI,88,89,4.2,19,83,11
+16,GameForge Studios,Gaming,South Korea,8.1,10.4,3245,2011,42.7,Mobile Gaming Platform,Kim Min-jun,Seoul,GAME,69,85,4.0,8,77,52
+17,CloudVault Systems,Cloud Computing,Ireland,3.6,4.8,1567,2020,17.2,Data Storage Solutions,Paddy O'Connor,Dublin,CLOU,75,88,4.3,12,89,33
+18,RoboticsLab,Industrial Automation,Italy,2.7,3.4,1123,2018,13.6,Manufacturing Robots,Marco Rossi,Milan,ROBO,73,93,3.9,9,78,40
+19,EnergyWise Corp,Smart Grid,Norway,4.1,5.3,1889,2016,22.3,Grid Management Systems,Ingrid Hansen,Oslo,ENER,87,84,4.1,17,80,14
+20,PharmaNext,Pharmaceuticals,Belgium,11.2,13.6,4567,2009,78.9,Personalized Medicine,Dr. Philippe Delacroix,Brussels,PHAR,81,90,4.2,21,75,29
+21,QuantumLeap Tech,Quantum Computing,United States,1.4,2.0,567,2022,6.1,Quantum Processors,Dr. Rachel Adams,Boston,QUAN,80,98,4.5,4,95,25
+22,AeroSpace Dynamics,Aerospace,United Kingdom,9.8,11.7,3789,2010,56.4,Aircraft Components,Sir James Wright,Manchester,AERO,70,87,3.8,13,73,48
+23,NanoMaterials Inc,Materials Science,Japan,2.9,3.6,1245,2019,14.8,Nanotechnology Solutions,Yuki Yamamoto,Osaka,NANO,78,95,4.0,7,84,27
+24,SmartHome Systems,IoT,China,6.3,8.1,2456,2014,34.2,Home Automation,Zhang Wei,Shenzhen,SMRT,71,81,3.9,20,86,41
+25,BioFuel Dynamics,Renewable Energy,United States,3.5,4.4,1678,2017,18.9,Biofuel Production,Maria Gonzalez,Houston,BIOF,86,76,4.1,11,69,16
+26,VirtualReality Pro,Virtual Reality,Finland,1.8,2.4,623,2020,7.4,VR Headsets,Mikko Virtanen,Helsinki,VIRT,76,92,4.3,5,88,36
+27,OceanTech Marine,Marine Technology,Norway,2.6,3.2,987,2018,12.1,Underwater Robotics,Astrid Fjord,Bergen,OCEA,89,83,4.2,8,71,9
+28,SolarMax Energy,Solar Energy,Spain,4.7,5.9,2134,2015,25.6,Solar Installations,Pablo Martinez,Madrid,SOLA,90,79,4.0,16,68,7
+29,CryptoSafe Systems,Blockchain,Estonia,1.3,1.9,456,2021,4.8,Blockchain Security,Kristjan Kask,Tallinn,CRYP,74,89,4.4,6,92,43
+30,MedDevice Innovations,Medical Devices,Denmark,3.1,3.9,1345,2016,15.7,Surgical Robotics,Morten Nielsen,Copenhagen,MEDD,83,86,4.3,12,87,18

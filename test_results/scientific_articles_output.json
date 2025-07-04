@@ -1,0 +1,463 @@
+{
+  "document_metadata": {
+    "filename": "scientific_articles.json",
+    "filepath": "test_corpus/scientific_articles.json",
+    "document_type": "JSON",
+    "file_size": 16696,
+    "created_at": "2025-07-04T21:48:08.918676708Z",
+    "modified_at": "2025-07-04T21:48:09.998738895Z",
+    "title": null,
+    "author": null,
+    "format_metadata": {
+      "detected_language": "fr",
+      "estimated_tokens": 3049,
+      "json_metadata": {
+        "element_types": {
+          "object": 5
+        },
+        "length": 5,
+        "max_depth": 5,
+        "type": "array"
+      },
+      "total_characters": 17882,
+      "total_words": 2293
+    }
+  },
+  "chunks": [
+    {
+      "id": "json_chunk_0",
+      "content": "=[[0]={[0].abstract=\"This comprehensive review examines the current state and future prospects of machine learning applications in healthcare. We analyze over 200 recent studies covering diagnostic imaging, drug discovery, personalized medicine, and clinical decision support systems. Our findings indicate that ML techniques have achieved significant breakthroughs in medical image analysis, with accuracy rates exceeding 95% in certain diagnostic tasks. However, challenges remain in areas such as data privacy, model interpretability, and regulatory compliance. The review concludes with recommendations for future research directions and implementation strategies.\", [0].authors=[[0].authors[0]=\"Dr. Emily Watson\", [0].authors[1]=\"Prof. James Miller\", [0].authors[2]=\"Dr. Alex Chen\"], [0].data_availability=\"All data supporting the conclusions of this review are available in the supplementary materials and referenced publications.\", [0].doi=\"10.1234/ijmai.2024.0145\",",
+      "chunk_index": 0,
+      "position": {
+        "page": null,
+        "line": null,
+        "start_offset": 0,
+        "end_offset": 973
+      },
+      "metadata": {
+        "size": 973,
+        "language": null,
+        "confidence": 1.0,
+        "format_specific": {
+          "estimated_tokens": 172,
+          "json_type": "array",
+          "word_count": 130
+        }
+      }
+    },
+    {
+      "id": "json_chunk_1",
+      "content": "ble in the supplementary materials and referenced publications.\", [0].doi=\"10.1234/ijmai.2024.0145\", [0].ethics_statement=\"This review study was exempted from ethics approval as it involved analysis of publicly available literature only.\", [0].funding=\"This research was supported by grants from the National Science Foundation (NSF-2024-HL-8834) and the Medical Research Council (MRC-AI-2024-0156).\", [0].id=\"article_001\", [0].issue=3, [0].journal=\"International Journal of Medical AI\", [0].keywords=[[0].keywords[0]=\"machine learning\", [0].keywords[1]=\"healthcare\", [0].keywords[2]=\"medical imaging\", [0].keywords[3]=\"AI diagnostics\", [0].keywords[4]=\"personalized medicine\"], [0].pages=\"145-162\", [0].references_count=187, [0].sections={[0].sections.conclusion=\"Machine learning represents a transformative force in healthcare, with the potential to revolutionize diagnosis, treatment, and patient care. However, successful implementation requires addressing technical, ethical, and regulatory",
+      "chunk_index": 1,
+      "position": {
+        "page": null,
+        "line": null,
+        "start_offset": 873,
+        "end_offset": 1869
+      },
+      "metadata": {
+        "size": 996,
+        "language": null,
+        "confidence": 1.0,
+        "format_specific": {
+          "estimated_tokens": 179,
+          "json_type": "array",
+          "word_count": 135
+        }
+      }
+    },
+    {
+      "id": "json_chunk_2",
+      "content": "ient care. However, successful implementation requires addressing technical, ethical, and regulatory challenges through collaborative efforts between technologists, clinicians, and policymakers.\", [0].sections.discussion=\"While the results are promising, several challenges persist. Data quality and availability remain major obstacles, with many healthcare institutions lacking standardized data collection processes. Additionally, the 'black box' nature of many ML models raises concerns about clinical interpretability.\", [0].sections.introduction=\"Healthcare systems worldwide are experiencing a paradigm shift with the integration of artificial intelligence and machine learning technologies. These advanced computational methods offer unprecedented opportunities to improve patient outcomes, reduce costs, and enhance the efficiency of medical practices.\", [0].sections.methodology=\"We conducted a systematic literature review following PRISMA guidelines, searching PubMed, IEEE Xplore, and",
+      "chunk_index": 2,
+      "position": {
+        "page": null,
+        "line": null,
+        "start_offset": 1769,
+        "end_offset": 2765
+      },
+      "metadata": {
+        "size": 996,
+        "language": null,
+        "confidence": 1.0,
+        "format_specific": {
+          "estimated_tokens": 154,
+          "json_type": "array",
+          "word_count": 116
+        }
+      }
+    },
+    {
+      "id": "json_chunk_3",
+      "content": "ucted a systematic literature review following PRISMA guidelines, searching PubMed, IEEE Xplore, and other major databases for relevant publications from 2020-2024. Our search strategy included terms related to machine learning, deep learning, neural networks, and various healthcare applications.\", [0].sections.results=\"The analysis revealed significant advances in medical imaging (34% of studies), clinical decision support (28%), drug discovery (21%), and patient monitoring (17%). Deep learning models, particularly convolutional neural networks, dominated the medical imaging applications.\"}, [0].title=\"Machine Learning in Healthcare: A Comprehensive Review\", [0].volume=15, [0].year=2024}, [1]={[1].abstract=\"As quantum computing technology advances, its implications for cryptography and cybersecurity become increasingly significant. This paper explores current quantum computing capabilities, analyzes threats to existing cryptographic systems, and examines post-quantum cryptographic",
+      "chunk_index": 3,
+      "position": {
+        "page": null,
+        "line": null,
+        "start_offset": 2665,
+        "end_offset": 3661
+      },
+      "metadata": {
+        "size": 996,
+        "language": null,
+        "confidence": 1.0,
+        "format_specific": {
+          "estimated_tokens": 166,
+          "json_type": "array",
+          "word_count": 125
+        }
+      }
+    },
+    {
+      "id": "json_chunk_4",
+      "content": "ilities, analyzes threats to existing cryptographic systems, and examines post-quantum cryptographic solutions. We present a comprehensive analysis of quantum algorithms including Shor's algorithm for factoring and Grover's algorithm for searching, along with their potential impact on RSA, ECC, and other widely-used cryptographic methods. The study also evaluates emerging quantum-resistant algorithms and their implementation challenges.\", [1].authors=[[1].authors[0]=\"Dr. Sarah Kim\", [1].authors[1]=\"Prof. Michael Foster\", [1].authors[2]=\"Dr. Lisa Zhang\"], [1].classification=\"This research involves dual-use technologies with potential security implications. All results have been reviewed for export control compliance.\", [1].doi=\"10.5678/qcr.2024.0078\", [1].funding=\"This work was supported by the Department of Defense Quantum Information Science Research Program (Grant No. QIS-2024-0234) and the European Quantum Flagship Initiative.\", [1].id=\"article_002\", [1].impact_factor=3.7,",
+      "chunk_index": 4,
+      "position": {
+        "page": null,
+        "line": null,
+        "start_offset": 3561,
+        "end_offset": 4551
+      },
+      "metadata": {
+        "size": 990,
+        "language": null,
+        "confidence": 1.0,
+        "format_specific": {
+          "estimated_tokens": 180,
+          "json_type": "array",
+          "word_count": 136
+        }
+      }
+    },
+    {
+      "id": "json_chunk_5",
+      "content": "4-0234) and the European Quantum Flagship Initiative.\", [1].id=\"article_002\", [1].impact_factor=3.7, [1].issue=2, [1].journal=\"Quantum Computing Review\", [1].keywords=[[1].keywords[0]=\"quantum computing\", [1].keywords[1]=\"cryptography\", [1].keywords[2]=\"cybersecurity\", [1].keywords[3]=\"post-quantum cryptography\", [1].keywords[4]=\"quantum algorithms\"], [1].pages=\"78-95\", [1].references_count=156, [1].sections={[1].sections.current_threats=\"Analysis of current quantum computing capabilities reveals that while large-scale, fault-tolerant quantum computers capable of breaking RSA-2048 do not yet exist, significant progress is being made. IBM, Google, and other companies have demonstrated quantum computers with increasing qubit counts and improved error rates.\", [1].sections.implementation_challenges=\"Transitioning to post-quantum cryptography presents numerous challenges including increased key sizes, computational overhead, and the need for hybrid solutions during the transition period.",
+      "chunk_index": 5,
+      "position": {
+        "page": null,
+        "line": null,
+        "start_offset": 4451,
+        "end_offset": 5449
+      },
+      "metadata": {
+        "size": 998,
+        "language": null,
+        "confidence": 1.0,
+        "format_specific": {
+          "estimated_tokens": 174,
+          "json_type": "array",
+          "word_count": 131
+        }
+      }
+    },
+    {
+      "id": "json_chunk_6",
+      "content": "d key sizes, computational overhead, and the need for hybrid solutions during the transition period. Organizations must balance security requirements with performance constraints.\", [1].sections.introduction=\"The advent of practical quantum computing poses both opportunities and challenges for the field of cryptography. While quantum computers promise to solve certain problems exponentially faster than classical computers, they also threaten the security foundations of current cryptographic systems.\", [1].sections.post_quantum_solutions=\"Post-quantum cryptography focuses on developing cryptographic algorithms that remain secure against both classical and quantum attacks. The National Institute of Standards and Technology (NIST) has been leading standardization efforts, recently selecting algorithms such as CRYSTALS-Kyber for key encapsulation and CRYSTALS-Dilithium for digital signatures.\", [1].sections.quantum_algorithms=\"Shor's algorithm, developed in 1994, demonstrates the ability",
+      "chunk_index": 6,
+      "position": {
+        "page": null,
+        "line": null,
+        "start_offset": 5349,
+        "end_offset": 6347
+      },
+      "metadata": {
+        "size": 998,
+        "language": null,
+        "confidence": 1.0,
+        "format_specific": {
+          "estimated_tokens": 162,
+          "json_type": "array",
+          "word_count": 122
+        }
+      }
+    },
+    {
+      "id": "json_chunk_7",
+      "content": "es.\", [1].sections.quantum_algorithms=\"Shor's algorithm, developed in 1994, demonstrates the ability of quantum computers to efficiently factor large integers and compute discrete logarithms. This capability directly threatens RSA, Elliptic Curve Cryptography (ECC), and Diffie-Hellman key exchange protocols that rely on the computational difficulty of these mathematical problems.\"}, [1].title=\"Quantum Computing Applications in Cryptography and Security\", [1].volume=8, [1].year=2024}, [2]={[2].abstract=\"The transition to renewable energy requires advanced energy storage solutions to address intermittency challenges. This paper reviews recent developments in battery technology, focusing on lithium-ion improvements, solid-state batteries, and alternative chemistries. We analyze grid integration strategies, economic considerations, and environmental impacts. Our research includes experimental results from a 50 MWh grid-scale storage system deployed in California, demonstrating 94%",
+      "chunk_index": 7,
+      "position": {
+        "page": null,
+        "line": null,
+        "start_offset": 6247,
+        "end_offset": 7238
+      },
+      "metadata": {
+        "size": 991,
+        "language": null,
+        "confidence": 1.0,
+        "format_specific": {
+          "estimated_tokens": 168,
+          "json_type": "array",
+          "word_count": 127
+        }
+      }
+    },
+    {
+      "id": "json_chunk_8",
+      "content": "perimental results from a 50 MWh grid-scale storage system deployed in California, demonstrating 94% round-trip efficiency and successful frequency regulation. The study concludes with policy recommendations for accelerating energy storage deployment.\", [2].authors=[[2].authors[0]=\"Dr. Maria Gonzalez\", [2].authors[1]=\"Prof. Robert Johnson\", [2].authors[2]=\"Dr. Wei Liu\", [2].authors[3]=\"Dr. Ahmed Hassan\"], [2].doi=\"10.9876/res.2024.0023\", [2].experimental_data={[2].experimental_data.cycle_life=\"8,500 cycles (80% capacity retention)\", [2].experimental_data.duration=\"4 hours\", [2].experimental_data.efficiency=\"94.2%\", [2].experimental_data.response_time=\"< 100 milliseconds\", [2].experimental_data.system_capacity=\"50 MWh\", [2].experimental_data.test_facility=\"California Grid Storage Test Site\"}, [2].funding=\"This research was supported by the U.S. Department of Energy (DOE-EERE-2024-0189) and the California Energy Commission (CEC-GFO-23-302).\", [2].id=\"article_003\", [2].issue=1,",
+      "chunk_index": 8,
+      "position": {
+        "page": null,
+        "line": null,
+        "start_offset": 7138,
+        "end_offset": 8127
+      },
+      "metadata": {
+        "size": 989,
+        "language": null,
+        "confidence": 1.0,
+        "format_specific": {
+          "estimated_tokens": 167,
+          "json_type": "array",
+          "word_count": 126
+        }
+      }
+    },
+    {
+      "id": "json_chunk_9",
+      "content": "24-0189) and the California Energy Commission (CEC-GFO-23-302).\", [2].id=\"article_003\", [2].issue=1, [2].journal=\"Renewable Energy Systems\", [2].keywords=[[2].keywords[0]=\"energy storage\", [2].keywords[1]=\"battery technology\", [2].keywords[2]=\"grid integration\", [2].keywords[3]=\"renewable energy\", [2].keywords[4]=\"sustainability\"], [2].pages=\"23-41\", [2].peer_review_process=\"This article underwent double-blind peer review by three independent experts in energy storage and grid integration.\", [2].references_count=203, [2].sections={[2].sections.battery_technologies=\"Current lithium-ion technology has achieved significant improvements in energy density, with the latest NMC (Nickel Manganese Cobalt) cathodes reaching 280 Wh/kg at the cell level. Solid-state batteries show promise for further improvements, potentially offering 400+ Wh/kg with enhanced safety characteristics.\", [2].sections.economic_analysis=\"Levelized cost of storage (LCOS) for lithium-ion systems has decreased by 85%",
+      "chunk_index": 9,
+      "position": {
+        "page": null,
+        "line": null,
+        "start_offset": 8027,
+        "end_offset": 9022
+      },
+      "metadata": {
+        "size": 995,
+        "language": null,
+        "confidence": 1.0,
+        "format_specific": {
+          "estimated_tokens": 182,
+          "json_type": "array",
+          "word_count": 137
+        }
+      }
+    },
+    {
+      "id": "json_chunk_10",
+      "content": "ons.economic_analysis=\"Levelized cost of storage (LCOS) for lithium-ion systems has decreased by 85% since 2010, reaching $150/MWh for 4-hour duration systems. However, longer duration storage remains economically challenging, with costs exceeding $300/MWh for 8+ hour systems.\", [2].sections.environmental_impact=\"Life cycle assessment reveals that battery manufacturing accounts for 60-80% of total environmental impact. Recycling and second-life applications can reduce this impact by 40-50%, but require supportive policies and infrastructure development.\", [2].sections.future_outlook=\"Emerging technologies including iron-air batteries, liquid metal batteries, and compressed air energy storage show potential for long-duration applications. Commercial deployment is expected within the next 5-7 years.\", [2].sections.grid_applications=\"Grid-scale energy storage serves multiple functions including peak shaving, frequency regulation, voltage support, and black start capabilities. Our",
+      "chunk_index": 10,
+      "position": {
+        "page": null,
+        "line": null,
+        "start_offset": 8922,
+        "end_offset": 9913
+      },
+      "metadata": {
+        "size": 991,
+        "language": null,
+        "confidence": 1.0,
+        "format_specific": {
+          "estimated_tokens": 171,
+          "json_type": "array",
+          "word_count": 129
+        }
+      }
+    },
+    {
+      "id": "json_chunk_11",
+      "content": "ons including peak shaving, frequency regulation, voltage support, and black start capabilities. Our analysis of 15 operational installations worldwide shows average capacity factors of 68% for arbitrage applications and 23% for ancillary services.\"}, [2].supplementary_materials=\"Additional experimental data, economic models, and technical specifications are available online at: https://doi.org/10.9876/res.2024.0023.supp\", [2].title=\"Sustainable Energy Storage: Advances in Battery Technology and Grid Integration\", [2].volume=42, [2].year=2024}, [3]={[3].abstract=\"Modern urban planning increasingly relies on data analytics, IoT sensors, and citizen participation platforms to create more livable, sustainable cities. This study examines data-driven planning approaches in 12 major cities across North America, Europe, and Asia. We analyze the effectiveness of smart city initiatives in traffic management, waste optimization, energy efficiency, and public safety. Results show 15-30%",
+      "chunk_index": 11,
+      "position": {
+        "page": null,
+        "line": null,
+        "start_offset": 9813,
+        "end_offset": 10803
+      },
+      "metadata": {
+        "size": 990,
+        "language": null,
+        "confidence": 1.0,
+        "format_specific": {
+          "estimated_tokens": 176,
+          "json_type": "array",
+          "word_count": 133
+        }
+      }
+    },
+    {
+      "id": "json_chunk_12",
+      "content": "in traffic management, waste optimization, energy efficiency, and public safety. Results show 15-30% improvements in key urban metrics, but also highlight digital divide concerns and privacy challenges. The paper proposes a framework for inclusive smart city development that balances technological innovation with social equity.\", [3].authors=[[3].authors[0]=\"Prof. Jennifer Adams\", [3].authors[1]=\"Dr. Carlos Mendez\", [3].authors[2]=\"Dr. Yuki Tanaka\"], [3].case_studies=[[3].case_studies[0]={[3].case_studies[0].challenges=\"Initial citizen resistance, high implementation costs, data privacy concerns\", [3].case_studies[0].city=\"Barcelona, Spain\", [3].case_studies[0].initiatives=[[3].case_studies[0].initiatives[0]=\"smart lighting\", [3].case_studies[0].initiatives[1]=\"water management\", [3].case_studies[0].initiatives[2]=\"waste sensors\", [3].case_studies[0].initiatives[3]=\"parking optimization\"], [3].case_studies[0].population=1620000, [3].case_studies[0].results=\"22% reduction in energy",
+      "chunk_index": 12,
+      "position": {
+        "page": null,
+        "line": null,
+        "start_offset": 10703,
+        "end_offset": 11698
+      },
+      "metadata": {
+        "size": 995,
+        "language": null,
+        "confidence": 1.0,
+        "format_specific": {
+          "estimated_tokens": 178,
+          "json_type": "array",
+          "word_count": 134
+        }
+      }
+    },
+    {
+      "id": "json_chunk_13",
+      "content": "tion\"], [3].case_studies[0].population=1620000, [3].case_studies[0].results=\"22% reduction in energy consumption, 18% decrease in water waste, 35% improvement in parking efficiency\"}, [3].case_studies[1]={[3].case_studies[1].challenges=\"Balancing surveillance and privacy, ensuring inclusive participation, managing data complexity\", [3].case_studies[1].city=\"Singapore\", [3].case_studies[1].initiatives=[[3].case_studies[1].initiatives[0]=\"traffic optimization\", [3].case_studies[1].initiatives[1]=\"predictive maintenance\", [3].case_studies[1].initiatives[2]=\"citizen feedback platform\", [3].case_studies[1].initiatives[3]=\"environmental monitoring\"], [3].case_studies[1].population=5850000, [3].case_studies[1].results=\"31% reduction in traffic congestion, 25% decrease in infrastructure maintenance costs, 89% citizen satisfaction rate\"}, [3].case_studies[2]={[3].case_studies[2].challenges=\"Public trust in data usage, integrating legacy systems, cross-departmental coordination\",",
+      "chunk_index": 13,
+      "position": {
+        "page": null,
+        "line": null,
+        "start_offset": 11598,
+        "end_offset": 12582
+      },
+      "metadata": {
+        "size": 984,
+        "language": null,
+        "confidence": 1.0,
+        "format_specific": {
+          "estimated_tokens": 162,
+          "json_type": "array",
+          "word_count": 122
+        }
+      }
+    },
+    {
+      "id": "json_chunk_14",
+      "content": "hallenges=\"Public trust in data usage, integrating legacy systems, cross-departmental coordination\", [3].case_studies[2].city=\"Toronto, Canada\", [3].case_studies[2].initiatives=[[3].case_studies[2].initiatives[0]=\"bike-sharing optimization\", [3].case_studies[2].initiatives[1]=\"transit planning\", [3].case_studies[2].initiatives[2]=\"affordable housing allocation\", [3].case_studies[2].initiatives[3]=\"green space monitoring\"], [3].case_studies[2].population=2930000, [3].case_studies[2].results=\"28% increase in bike-sharing usage, 15% improvement in transit on-time performance, better housing equity distribution\"}], [3].doi=\"10.3456/udq.2024.0112\", [3].ethical_considerations=\"All data collection followed IRB protocols. Citizen interviews were conducted with informed consent, and city data was anonymized where required by local regulations.\", [3].funding=\"This research was funded by the Urban Innovation Network (Grant UIN-2024-0067) and the International Smart Cities Consortium.\",",
+      "chunk_index": 14,
+      "position": {
+        "page": null,
+        "line": null,
+        "start_offset": 12482,
+        "end_offset": 13471
+      },
+      "metadata": {
+        "size": 989,
+        "language": null,
+        "confidence": 1.0,
+        "format_specific": {
+          "estimated_tokens": 172,
+          "json_type": "array",
+          "word_count": 130
+        }
+      }
+    },
+    {
+      "id": "json_chunk_15",
+      "content": " the Urban Innovation Network (Grant UIN-2024-0067) and the International Smart Cities Consortium.\", [3].id=\"article_004\", [3].issue=4, [3].journal=\"Urban Development Quarterly\", [3].keywords=[[3].keywords[0]=\"smart cities\", [3].keywords[1]=\"urban planning\", [3].keywords[2]=\"data analytics\", [3].keywords[3]=\"citizen engagement\", [3].keywords[4]=\"sustainability\"], [3].license=\"Creative Commons Attribution 4.0 International License\", [3].methodology=\"Mixed-methods approach combining quantitative analysis of city performance metrics with qualitative interviews of 127 city officials, technology providers, and citizen representatives across the 12 study cities.\", [3].open_access=true, [3].pages=\"112-128\", [3].references_count=178, [3].title=\"Urban Planning in the Age of Smart Cities: Data-Driven Approaches and Citizen Engagement\", [3].volume=31, [3].year=2024}, [4]={[4].abstract=\"Marine biodiversity faces unprecedented threats from climate change, pollution, and human activities. This",
+      "chunk_index": 15,
+      "position": {
+        "page": null,
+        "line": null,
+        "start_offset": 13371,
+        "end_offset": 14365
+      },
+      "metadata": {
+        "size": 994,
+        "language": null,
+        "confidence": 1.0,
+        "format_specific": {
+          "estimated_tokens": 180,
+          "json_type": "array",
+          "word_count": 136
+        }
+      }
+    },
+    {
+      "id": "json_chunk_16",
+      "content": " biodiversity faces unprecedented threats from climate change, pollution, and human activities. This comprehensive study evaluates technology-enhanced conservation strategies across 25 marine protected areas worldwide. We deployed autonomous underwater vehicles (AUVs), satellite monitoring, DNA metabarcoding, and AI-powered species identification systems to assess ecosystem health and conservation effectiveness. Results demonstrate that integrated monitoring approaches can increase species detection rates by 340% compared to traditional methods. The study presents a scalable framework for technology-assisted marine conservation that has been successfully implemented in collaboration with local communities and conservation organizations.\", [4].authors=[[4].authors[0]=\"Dr. Ocean Martinez\", [4].authors[1]=\"Prof. Coral Thompson\", [4].authors[2]=\"Dr. Marine Williams\", [4].authors[3]=\"Dr. Deep Singh\"], [4].conservation_outcomes={[4].conservation_outcomes.community_engagement=\"Citizen",
+      "chunk_index": 16,
+      "position": {
+        "page": null,
+        "line": null,
+        "start_offset": 14265,
+        "end_offset": 15257
+      },
+      "metadata": {
+        "size": 992,
+        "language": null,
+        "confidence": 1.0,
+        "format_specific": {
+          "estimated_tokens": 159,
+          "json_type": "array",
+          "word_count": 120
+        }
+      }
+    },
+    {
+      "id": "json_chunk_17",
+      "content": "Dr. Deep Singh\"], [4].conservation_outcomes={[4].conservation_outcomes.community_engagement=\"Citizen science platforms enabled 2,847 volunteers to contribute 45,000 observations, enhancing monitoring coverage\", [4].conservation_outcomes.habitat_restoration=\"Precision mapping guided coral restoration efforts, improving survival rates of transplanted corals by 38%\", [4].conservation_outcomes.species_recovery=\"Protected areas with technology-enhanced monitoring showed 67% greater species recovery rates compared to traditionally managed areas\", [4].conservation_outcomes.threat_detection=\"Early warning systems detected illegal fishing activities with 89% accuracy, reducing unauthorized vessel presence by 43%\"}, [4].data_accessibility=\"All monitoring data and species occurrence records are available through the Global Biodiversity Information Facility (GBIF) and Ocean Biogeographic Information System (OBIS).\", [4].doi=\"10.7890/mec.2024.0089\", [4].funding=\"This research was supported by the",
+      "chunk_index": 17,
+      "position": {
+        "page": null,
+        "line": null,
+        "start_offset": 15157,
+        "end_offset": 16155
+      },
+      "metadata": {
+        "size": 998,
+        "language": null,
+        "confidence": 1.0,
+        "format_specific": {
+          "estimated_tokens": 146,
+          "json_type": "array",
+          "word_count": 110
+        }
+      }
+    },
+    {
+      "id": "json_chunk_18",
+      "content": "on System (OBIS).\", [4].doi=\"10.7890/mec.2024.0089\", [4].funding=\"This research was supported by the Global Ocean Conservation Fund (GOCF-2024-0123), National Science Foundation (NSF-OCE-2024567), and the Blue Planet Initiative.\", [4].global_impact=\"Study findings have informed policy decisions in 12 countries and contributed to the revision of IUCN Red List assessments for 34 marine species.\", [4].id=\"article_005\", [4].issue=6, [4].journal=\"Marine Ecology and Conservation\", [4].keywords=[[4].keywords[0]=\"marine biodiversity\", [4].keywords[1]=\"conservation technology\", [4].keywords[2]=\"ecosystem monitoring\", [4].keywords[3]=\"autonomous underwater vehicles\", [4].keywords[4]=\"DNA metabarcoding\"], [4].pages=\"89-107\", [4].references_count=234, [4].technology_overview={[4].technology_overview.ai_identification=\"Machine learning models trained on 2.3 million marine organism images achieved 92.7% accuracy in species identification, enabling real-time biodiversity assessment.\",",
+      "chunk_index": 18,
+      "position": {
+        "page": null,
+        "line": null,
+        "start_offset": 16055,
+        "end_offset": 17039
+      },
+      "metadata": {
+        "size": 984,
+        "language": null,
+        "confidence": 1.0,
+        "format_specific": {
+          "estimated_tokens": 174,
+          "json_type": "array",
+          "word_count": 131
+        }
+      }
+    },
+    {
+      "id": "json_chunk_19",
+      "content": "ges achieved 92.7% accuracy in species identification, enabling real-time biodiversity assessment.\", [4].technology_overview.autonomous_systems=\"Deployed 47 AUVs equipped with multi-spectral cameras, environmental sensors, and acoustic monitoring equipment. Systems operated continuously for 6-month periods with 95% uptime.\", [4].technology_overview.genetic_analysis=\"Environmental DNA (eDNA) sampling combined with metabarcoding identified 1,847 species across study sites, including 23 previously unknown species and 67 rare species not detected by visual surveys.\", [4].technology_overview.satellite_monitoring=\"Utilized Landsat 8, Sentinel-2, and commercial high-resolution imagery for habitat mapping and change detection. Achieved 2-meter spatial resolution for coral reef monitoring.\"}, [4].title=\"Biodiversity Conservation in Marine Ecosystems: Technology-Enhanced Monitoring and Protection Strategies\", [4].volume=18, [4].year=2024}]",
+      "chunk_index": 19,
+      "position": {
+        "page": null,
+        "line": null,
+        "start_offset": 16939,
+        "end_offset": 17882
+      },
+      "metadata": {
+        "size": 943,
+        "language": null,
+        "confidence": 1.0,
+        "format_specific": {
+          "estimated_tokens": 150,
+          "json_type": "array",
+          "word_count": 113
+        }
+      }
+    }
+  ],
+  "processing_info": {
+    "processor": "JsonProcessor",
+    "processor_version": "1.0.0",
+    "processed_at": "2025-07-04T21:51:35.461160088Z",
+    "processing_time_ms": 2,
+    "total_chunks": 20,
+    "total_content_size": 17882,
+    "processing_params": {
+      "max_chunk_size": 1000,
+      "chunk_overlap": 100,
+      "text_cleaning": true,
+      "language_detection": false,
+      "format_specific": null
+    }
+  }
+}

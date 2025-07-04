@@ -20,39 +20,42 @@ pub fn clean_text(text: &str) -> String {
 
 /// Découpe le texte en chunks de taille maximale avec chevauchement
 pub fn chunk_text(text: &str, max_size: usize, overlap: usize) -> Vec<String> {
-    if text.len() <= max_size {
+    if text.chars().count() <= max_size {
         return vec![text.to_string()];
     }
     
     let mut chunks = Vec::new();
+    let chars: Vec<char> = text.chars().collect();
     let mut start = 0;
     
-    while start < text.len() {
-        let end = (start + max_size).min(text.len());
-        let chunk = &text[start..end];
+    while start < chars.len() {
+        let end = (start + max_size).min(chars.len());
+        let chunk_chars = &chars[start..end];
+        let chunk: String = chunk_chars.iter().collect();
         
         // Essayer de couper à un espace pour éviter de couper les mots
-        let final_chunk = if end < text.len() {
+        let final_chunk = if end < chars.len() {
             if let Some(last_space) = chunk.rfind(' ') {
                 &chunk[..last_space]
             } else {
-                chunk
+                &chunk
             }
         } else {
-            chunk
+            &chunk
         };
         
         chunks.push(final_chunk.to_string());
         
         // Calculer la prochaine position de début avec chevauchement
-        if end >= text.len() {
+        if end >= chars.len() {
             break;
         }
         
-        start = if final_chunk.len() > overlap {
-            start + final_chunk.len() - overlap
+        let final_chunk_len = final_chunk.chars().count();
+        start = if final_chunk_len > overlap {
+            start + final_chunk_len - overlap
         } else {
-            start + final_chunk.len()
+            start + final_chunk_len
         };
     }
     
