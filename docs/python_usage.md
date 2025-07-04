@@ -6,7 +6,7 @@ Doc Loader peut être utilisé comme une bibliothèque Python native grâce aux 
 
 ### Via PyPI (Recommandé)
 ```bash
-pip install extracteur-docs-rs
+pip install doc-loader
 ```
 
 ## 🔧 Construction depuis les Sources

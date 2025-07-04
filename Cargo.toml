@@ -2,7 +2,7 @@
 name = "doc_loader"
 version = "0.2.0"
 edition = "2021"
-authors = ["William <will@example.com>"]
+authors = ["WillIsback <will@example.com>"]
 description = "A comprehensive toolkit for extracting and processing documentation from multiple file formats (PDF, TXT, JSON, CSV, DOCX) with Python bindings"
 keywords = ["document", "processing", "pdf", "text", "extraction"]
 categories = ["text-processing", "command-line-utilities", "api-bindings"]
@@ -10,7 +10,7 @@ license = "MIT"
 repository = "https://github.com/WillIsback/doc_loader"
 readme = "README.md"
 homepage = "https://github.com/WillIsback/doc_loader"
-documentation = "https://docs.rs/doc_loader"
+documentation = "https://willisback.github.io/doc_loader/"
 exclude = [
     "venv/",
     ".venv/",

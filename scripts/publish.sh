@@ -397,7 +397,7 @@ verify_publication() {
             local attempt=1
             while [ $attempt -le $max_attempts ]; do
                 print_info "Tentative d'installation $attempt/$max_attempts..."
-                if pip install extracteur-docs-rs --no-cache-dir --upgrade; then
+                if pip install doc-loader --no-cache-dir --upgrade; then
                     if python -c "import doc_loader; print('✅ Import réussi')"; then
                         print_success "Package PyPI vérifié avec succès"
                         break

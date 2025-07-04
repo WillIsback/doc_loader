@@ -70,4 +70,8 @@ personal/
 private/
 my_*
 *_personal.*
-scripts/*
+
+# Development scripts (keep public scripts)
+scripts/setup_tokens.sh
+scripts/local_*
+scripts/*_personal.*

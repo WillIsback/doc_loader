@@ -1,0 +1,43 @@
+title: Doc Loader Documentation
+description: Comprehensive toolkit for extracting and processing documentation from multiple file formats
+
+theme: minima
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+markdown: kramdown
+highlighter: rouge
+
+baseurl: "/doc_loader"
+url: "https://willisback.github.io"
+
+navigation:
+  - title: Home
+    url: /
+  - title: Quick Start
+    url: /quick_start
+  - title: Python Usage
+    url: /python_usage
+  - title: API Reference
+    url: /api
+  - title: Examples
+    url: /examples
+  - title: Configuration
+    url: /configuration
+
+social:
+  github: WillIsback/doc_loader
+  pypi: doc-loader
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .bundle
+  - .sass-cache
+  - .jekyll-cache
+  - .jekyll-metadata

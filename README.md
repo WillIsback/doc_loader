@@ -5,7 +5,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![GitHub](https://img.shields.io/badge/GitHub-WillIsback%2Fdoc__loader-blue.svg)](https://github.com/WillIsback/doc_loader)
 [![Crates.io](https://img.shields.io/crates/v/doc_loader.svg)](https://crates.io/crates/doc_loader)
-[![PyPI](https://img.shields.io/pypi/v/extracteur-docs-rs.svg)](https://pypi.org/project/extracteur-docs-rs/)
+[![PyPI](https://img.shields.io/pypi/v/doc-loader.svg)](https://pypi.org/project/doc-loader/)
 
 A comprehensive Rust toolkit for extracting and processing documentation from multiple file formats into a universal JSON structure, optimized for vector stores and RAG (Retrieval-Augmented Generation) systems.
 
@@ -305,7 +305,7 @@ Doc Loader provides **fully functional** Python bindings through PyO3, offering 
 ### Installation
 ```bash
 # Via PyPI (recommandé)
-pip install extracteur-docs-rs
+pip install doc-loader
 
 # Ou build depuis les sources
 # Create virtual environment
@@ -321,7 +321,7 @@ venv/bin/maturin develop --features python --release
 
 ### Usage
 ```python
-import extracteur-docs-rs as doc_loader
+import doc_loader
 
 # Quick start - process any supported file format
 result = doc_loader.process_file("document.pdf", chunk_size=500)

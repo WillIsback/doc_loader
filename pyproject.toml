@@ -3,12 +3,12 @@ requires = ["maturin>=1.0,<2.0"]
 build-backend = "maturin"
 
 [project]
-name = "extracteur-docs-rs"
+name = "doc-loader"
 description = "Un toolkit complet pour extraire et traiter la documentation depuis plusieurs formats de fichiers (PDF, TXT, JSON, CSV, DOCX) avec des bindings Python"
-readme = "README.md"
+readme = "README_PYPI.md"
 license = {text = "MIT"}
 authors = [
-    {name = "William", email = "will@example.com"}
+    {name = "WillIsback", email = "will@example.com"}
 ]
 classifiers = [
     "Development Status :: 4 - Beta",
@@ -30,7 +30,7 @@ dynamic = ["version"]
 
 [project.urls]
 Repository = "https://github.com/WillIsback/doc_loader"
-Documentation = "https://github.com/WillIsback/doc_loader/tree/master/docs"
+Documentation = "https://willisback.github.io/doc_loader/"
 Homepage = "https://github.com/WillIsback/doc_loader"
 
 [tool.maturin]
