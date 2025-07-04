@@ -3,7 +3,7 @@ requires = ["maturin>=1.0,<2.0"]
 build-backend = "maturin"
 
 [project]
-name = "doc-loader"
+name = "extracteur-docs-rs"
 description = "Un toolkit complet pour extraire et traiter la documentation depuis plusieurs formats de fichiers (PDF, TXT, JSON, CSV, DOCX) avec des bindings Python"
 readme = "README_PYPI.md"
 license = {text = "MIT"}

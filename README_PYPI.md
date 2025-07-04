@@ -1,7 +1,7 @@
 # 🐍 Doc Loader - Python Package
 
 [![Python](https://img.shields.io/badge/python-3.9%2B-blue.svg)](https://www.python.org/)
-[![PyPI](https://img.shields.io/pypi/v/doc-loader.svg)](https://pypi.org/project/doc-loader/)
+[![PyPI](https://img.shields.io/pypi/v/extracteur-docs-rs.svg)](https://pypi.org/project/extracteur-docs-rs/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Documentation](https://img.shields.io/badge/docs-GitHub%20Pages-blue.svg)](https://willisback.github.io/doc_loader/)
 
@@ -20,7 +20,7 @@ A comprehensive Python toolkit for extracting and processing documentation from 
 ## 📦 Installation
 
 ```bash
-pip install doc-loader
+pip install extracteur-docs-rs
 ```
 
 ## 🔧 Usage
@@ -28,7 +28,7 @@ pip install doc-loader
 ### Quick Start
 
 ```python
-import doc_loader
+import extracteur_docs_rs as doc_loader
 
 # Process any supported file format
 result = doc_loader.process_file("document.pdf", chunk_size=500)
@@ -41,7 +41,7 @@ print(f"Supported formats: {doc_loader.supported_extensions()}")
 ### Advanced Usage
 
 ```python
-import doc_loader
+import extracteur_docs_rs as doc_loader
 
 # Create a processor with custom parameters
 processor = doc_loader.PyUniversalProcessor()
@@ -161,7 +161,7 @@ info = result.get_processing_info()
 ### RAG/Embedding Pipeline
 
 ```python
-import doc_loader
+import extracteur_docs_rs as doc_loader
 from sentence_transformers import SentenceTransformer
 
 # Process document
@@ -178,7 +178,7 @@ embeddings = model.encode(chunks)
 ### Batch Processing
 
 ```python
-import doc_loader
+import extracteur_docs_rs as doc_loader
 import os
 
 def process_directory(directory_path):
@@ -198,7 +198,7 @@ results = process_directory("./documents/")
 
 ```python
 from flask import Flask, request, jsonify
-import doc_loader
+import extracteur_docs_rs as doc_loader
 
 app = Flask(__name__)
 

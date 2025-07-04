@@ -17,7 +17,7 @@ Doc Loader is a comprehensive Rust toolkit with Python bindings that allows you 
 ### Python Package
 
 ```bash
-pip install doc-loader
+pip install extracteur-docs-rs
 ```
 
 ### Rust Crate
@@ -31,7 +31,7 @@ cargo add doc_loader
 ### Python Usage
 
 ```python
-import doc_loader
+import extracteur_docs_rs as doc_loader
 
 # Process any supported file format
 result = doc_loader.process_file("document.pdf")
@@ -83,7 +83,7 @@ println!("Extracted {} chunks", result.chunks.len());
 ## 🔗 Links
 
 - [GitHub Repository](https://github.com/WillIsback/doc_loader)
-- [PyPI Package](https://pypi.org/project/doc-loader/)
+- [PyPI Package](https://pypi.org/project/extracteur-docs-rs/)
 - [Crates.io Package](https://crates.io/crates/doc_loader)
 - [Issue Tracker](https://github.com/WillIsback/doc_loader/issues)
 
